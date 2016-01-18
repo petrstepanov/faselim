@@ -10,37 +10,12 @@
         <link rel="stylesheet" href="css/selimlab.css">
     </head>
     <body>
+        <?php
+            require('include/navbar.php');
+        ?>        
         <div class="container">
-            <!-- Static navbar -->
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">SelimLab</a>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li id="index"><a href="index.html">Welcome</a></li>
-                            <li id="research"><a href="research.html">Research</a></li>
-                            <li id="facilities"><a href="facilities.html">Facilities</a></li>
-                            <li id="publications"><a href="publications.html">Publications</a></li>
-                            <li id="teaching"><a href="teaching.html">Teaching</a></li>
-                            <li id="people"><a href="people.html">People</a></li>
-                        </ul>
-                    </div>
-                    <!--/.nav-collapse -->
-                </div>
-                <!--/.container-fluid -->
-            </nav>
             <div class="row">
-                <div class="col-sm-7">
+                <div class="col-sm-8">
                     <h1>Welcome to our Group at BGSU</h1>
                     <p>Farida Selim is the inventor of Accelerator based positron annihilation spectroscopy (APAS) technique, known today as Gamma induced positron spectroscopy (GIPS). Instead of using positron particles, the technique uses MeV gamma rays from accelerators to create positrons inside the sample by pair production and conduct Doppler broadening and positron lifetime measurements. For more information read some of Selim early publications:</p>
                     <ul class="spaced">
@@ -66,7 +41,7 @@
                     <div class="spacer-1em"></div>
                     <h3>Our major research projects include:</h3>
                     <ul class="spaced">
-                        <li>Defect studies and radial damage.</li>
+                        <li>Defect studies and radiation damage.</li>
                         <li>Fundamental and applied research on wide band gap materials. Synthesis and characterization."</li>
                         <li>Photoinduced effect in complex oxides.</li>
                     </ul>
@@ -90,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 col-sm-offset-1">
+                <div class="col-sm-3 col-sm-offset-1">
                     <img src="img/farida-selim.jpg" alt="Farida Selim" class="welcome-img"/>
 
                     <p class="lead">Dr. Farida A. Selim</p>
@@ -104,18 +79,15 @@
                     </p>
                 </div>
             </div>
-            <hr>
-            <footer>
-                <p>&copy; SelimLab 2015</p>
-            </footer>
         </div>
-        <script src="js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
+        <?php
+            require('include/footer.php');
+        ?>
+        <?php
+            require('include/scripts.php');
+        ?>
         <script>
-            $(document).ready(function(){
-                $('.navbar #index').addClass('active');
-            });
-        </script>
+            $('.nav #index').addClass('active');    
+        </script>        
     </body>
 </html>

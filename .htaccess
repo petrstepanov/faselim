@@ -1,0 +1,26 @@
+RewriteEngine On
+RewriteBase /
+
+#RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+#RewriteRule ^(.*)$ http://%1/$1 [R=302,L]
+
+# /~faselim/page will display the contents of /~faselim/page.php (if existing on filesystem)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L,QSA]
+
+# /~faselim/page will display the contents of example.com/page.html (if existing on filesystem)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L,QSA]
+
+
+# old website structure - redirects
+Redirect 301 /~faselim/Welcome.html      /~faselim/
+Redirect 301 /~faselim/Facilities.html   /~faselim/facilities
+Redirect 301 /~faselim/People.html       /~faselim/people
+Redirect 301 /~faselim/Publications.html /~faselim/publications
+Redirect 301 /~faselim/Research.html     /~faselim/research
+Redirect 301 /~faselim/Teaching.html     /~faselim/teaching
