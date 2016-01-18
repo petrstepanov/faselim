@@ -1,4 +1,4 @@
-// sudo npm install gulp-uglify gulp-rename gulp-less gulp-concat gulp-plumber gulp-cache-bust gulp-replace --save-dev
+// sudo npm install gulp gulp-uglify gulp-rename gulp-less gulp-concat gulp-plumber gulp-cache-bust gulp-replace --save-dev
 
 // Required
 
