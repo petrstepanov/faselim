@@ -8,10 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="css/selimlab.css">
+        <link rel="shortcut icon" href="favicon.ico">        
     </head>
     <body>
         <?php include_once("include/analyticstracking.php") ?>
-        <?php require_once('include/navbar.php'); ?> 
+        <?php require_once('include/navbar.php'); ?>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
