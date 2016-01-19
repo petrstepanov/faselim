@@ -10,14 +10,13 @@
         <link rel="stylesheet" href="css/selimlab.css">
     </head>
     <body>
-        <?php
-            require('include/navbar.php');
-        ?>  
+        <?php include_once("include/analyticstracking.php") ?>
+        <?php require_once('include/navbar.php'); ?> 
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <h1>Teaching</h1>
-                    <div class="spacer-2em"></div>                   
+                    <div class="spacer-2em"></div>
                     <h3>Spring 2014</h3>
                     <p>Thermal Physics and Optics</p>
                     <div class="spacer-2em"></div>
@@ -33,7 +32,7 @@
             require('include/scripts.php');
         ?>
         <script>
-            $('.nav #teaching').addClass('active');     
-        </script>        
+            $('.nav #teaching').addClass('active');
+        </script>
     </body>
 </html>

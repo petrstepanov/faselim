@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: /old/
-Disallow: /old-website/
-Disallow: /old-wordpress/
+Disallow: /include/

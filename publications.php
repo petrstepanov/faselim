@@ -10,9 +10,8 @@
         <link rel="stylesheet" href="css/selimlab.css">
     </head>
     <body>
-        <?php
-            require('include/navbar.php');
-        ?>  
+        <?php include_once("include/analyticstracking.php") ?>
+        <?php require_once('include/navbar.php'); ?> 
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -103,7 +102,7 @@
             require('include/scripts.php');
         ?>
         <script>
-            $('.nav #publications').addClass('active');       
-        </script>        
+            $('.nav #publications').addClass('active');
+        </script>
     </body>
 </html>
