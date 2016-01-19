@@ -1194,9 +1194,22 @@ a {
   -o-transition: color 200ms ease-out;
   transition: color 200ms ease-out;
 }
+a .icon {
+  fill: #337ab7;
+  margin-right: 0.75em;
+  -webkit-transition: fill 200ms ease-out;
+  -o-transition: fill 200ms ease-out;
+  transition: fill 200ms ease-out;
+  position: relative;
+  top: 0.35em;
+}
 a:hover,
 a:focus {
   text-decoration: none;
+}
+a:hover .icon,
+a:focus .icon {
+  fill: #23527c;
 }
 a:focus {
   outline: thin dotted;
@@ -1558,6 +1571,17 @@ address {
   margin-bottom: 25px;
   font-style: normal;
   line-height: 1.6;
+}
+.lead {
+  font-size: 1.3125em;
+  margin-bottom: 0.57142857em;
+}
+.lead.sublead {
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 0.1em;
+  opacity: 0.5;
 }
 h1,
 .h1,
@@ -6386,6 +6410,11 @@ html {
     margin-left: 0;
   }
 }
+hr {
+  height: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin: 2em 0 1em 0;
+}
 .news-container {
   background-color: #65a9d2;
   color: white;
@@ -6448,12 +6477,19 @@ h4 {
     top: -15em;
   }
 }
+.column-shift .icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+.column-shift .contacts {
+  line-height: 2.5;
+}
 .welcome-img {
   margin-top: 1.5em;
   width: 100%;
   margin-bottom: 1.5em;
   border-radius: 0.3125em;
-  box-shadow: 0 0 0 0.75em white;
+  box-shadow: 0 0 0 0.65em white;
 }
 @media (max-width: 767px) {
   .welcome-img {

@@ -151,6 +151,12 @@ html {
     }
 }
 
+hr {
+	height: 0;
+	border-bottom: 2px solid rgba(0,0,0,0.1);
+	margin: 2em 0 1em 0;
+}
+
 .news-container {
 	background-color: @blue;
 	color: white;
@@ -220,6 +226,15 @@ h4 {
 		position: relative;
 		top: -15em;
 	}
+
+	.icon {
+		width: 1.5em;
+		height: 1.5em;
+	}
+
+	.contacts {
+		line-height: 2.5;
+	}
 }
 
 .welcome-img {
@@ -227,7 +242,7 @@ h4 {
     width: 100%;
     margin-bottom: 1.5em;
 	border-radius: 0.3125em;
-	box-shadow: 0 0 0 0.75em white;
+	box-shadow: 0 0 0 0.65em white;
 
     @media (max-width: @screen-xs-max){
         width: 50%;

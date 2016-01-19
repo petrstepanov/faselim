@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1453230388754">
+        <link rel="stylesheet" href="css/selimlab.css?t=1453232374811">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -84,13 +84,20 @@
                     <img src="img/farida-selim.jpg" alt="Farida Selim" class="welcome-img"/>
 
                     <p class="lead">Dr. Farida A. Selim</p>
-                    <p><strong>Assistant Professor</strong></p>
-
+                    <p class="lead sublead">Assistant Professor</p>
+                    <div class="spacer-1em"></div>
                     <p><small>Department of Physics and Astronomy,<br/> Center for Photochemical Sciences,<br/><a href="http://www.bgsu.edu/">Bowling Green State University</a>,<br/>Overman Hall 172</small></p>
-
-                    <p>
-                        Email: <a href="mailto:&#102;&#097;&#115;&#101;&#108;&#105;&#109;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;">&#102;&#097;&#115;&#101;&#108;&#105;&#109;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;</a><br/>
-                        Tel: <a href="tel:1-419-372-9956">(419) 372-9956</a>
+                    <hr class="gray" />
+                    <p class="contacts">
+                        <a href="mailto:&#102;&#097;&#115;&#101;&#108;&#105;&#109;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;">
+                            <svg class="icon icon-mail"><use xlink:href="img/icons.svg#icon-mail"></use></svg>
+                            <strong>&#102;&#097;&#115;&#101;&#108;&#105;&#109;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;</strong>
+                        </a>
+                        <br/>
+                        <a href="tel:1-419-372-9956">
+                            <svg class="icon icon-phone"><use xlink:href="img/icons.svg#icon-phone"></use></svg>
+                            <strong>(419) 372-9956</strong>
+                        </a>
                     </p>
                 </div>
             </div>
