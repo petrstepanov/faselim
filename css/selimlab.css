@@ -6241,6 +6241,7 @@ html {
 @media (max-width: 767px) {
   .selim-navbar-container .selim-navbar {
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -6301,9 +6302,19 @@ html {
   margin: 2em 0;
   padding: 0;
 }
+@media (max-width: 767px) {
+  .selim-navbar-container .selim-navbar .navigation {
+    display: none;
+    text-align: center;
+    margin: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.08);
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .selim-navbar-container .selim-navbar .navigation {
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
     width: 100%;
   }
@@ -6323,23 +6334,49 @@ html {
   text-transform: uppercase;
   font-size: 0.75em;
   color: #888888;
-  border-bottom: 0.25em solid transparent;
   margin-left: 4em;
   padding: 0.6em 0;
   font-weight: bold;
   letter-spacing: 0.1em;
-  -webkit-transition: border-bottom-color 200ms ease-out;
-  -o-transition: border-bottom-color 200ms ease-out;
-  transition: border-bottom-color 200ms ease-out;
 }
-.selim-navbar-container .selim-navbar .navigation li a:hover {
-  border-bottom-color: rgba(0, 0, 0, 0.1);
+@media (min-width: 768px) {
+  .selim-navbar-container .selim-navbar .navigation li a {
+    border-bottom: 0.25em solid transparent;
+    -webkit-transition: border-bottom-color 200ms ease-out;
+    -o-transition: border-bottom-color 200ms ease-out;
+    transition: border-bottom-color 200ms ease-out;
+  }
 }
-.selim-navbar-container .selim-navbar .navigation li a.active {
-  border-bottom-color: #64eda6 !important;
+@media (max-width: 767px) {
+  .selim-navbar-container .selim-navbar .navigation li a {
+    margin: 0.3em 1em;
+    display: inline-block;
+  }
 }
-.selim-navbar-container .selim-navbar .navigation li:first-child a {
-  margin-left: 0;
+@media (max-width: 767px) {
+  .selim-navbar-container .selim-navbar .navigation li a:hover {
+    color: #555555;
+  }
+}
+@media (min-width: 768px) {
+  .selim-navbar-container .selim-navbar .navigation li a:hover {
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+  }
+}
+@media (max-width: 767px) {
+  .selim-navbar-container .selim-navbar .navigation li a.active {
+    color: #1fe57f !important;
+  }
+}
+@media (min-width: 768px) {
+  .selim-navbar-container .selim-navbar .navigation li a.active {
+    border-bottom-color: #64eda6 !important;
+  }
+}
+@media (min-width: 768px) {
+  .selim-navbar-container .selim-navbar .navigation li:first-child a {
+    margin-left: 0;
+  }
 }
 h1 {
   margin-top: 1.72972973em;

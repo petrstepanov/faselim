@@ -11,7 +11,7 @@
                     <a class="toggle-menu js-toggle-menu" href="#">
                         <svg class="icon"><use xlink:href="img/icons.svg#icon-menu"></use></svg>
                     </a>
-                    <ul class="hidden-xs navigation">
+                    <ul class="navigation js-navigation">
                         <li id="index"><a href="./">Welcome</a></li>
                         <li id="research"><a href="./research">Research</a></li>
                         <li id="facilities"><a href="./facilities">Facilities</a></li>

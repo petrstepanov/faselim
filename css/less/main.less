@@ -19,6 +19,7 @@ html {
         align-items: center;
         @media (max-width: @screen-xs-max){
             justify-content: space-between;
+			flex-wrap: wrap;
         }
         @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
             flex-direction: column;
@@ -72,8 +73,17 @@ html {
             margin: 2em 0;
             padding: 0;
 
+			@media (max-width: @screen-xs-max){
+				display: none;
+				text-align: center;
+            	margin: 0;
+				border-top: 2px solid rgba(0,0,0,0.08);
+				padding-top: 1em;
+				padding-bottom: 1em;
+			}
+
             @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
-                display: flex;
+                display: flex !important;
                 justify-content: space-between;
                 width: 100%;
 
@@ -92,28 +102,45 @@ html {
                     text-transform: uppercase;
                     font-size: @font-size-12;
                     color: @lightgray;
-                    border-bottom: 0.1875/@font-size-12 solid transparent;
-                    margin-left: 3/@font-size-12;
+					@media (min-width: @screen-sm-min){
+						border-bottom: 0.1875/@font-size-12 solid transparent;
+						.transition(border-bottom-color @fast ease-out);
+					}
+					margin-left: 3/@font-size-12;
                     padding: 0.45em/@font-size-12 0;
                     font-weight: bold;
                     letter-spacing: 0.1em;
-					.transition(border-bottom-color @fast ease-out);
 
+					@media (max-width: @screen-xs-max){
+						margin: 0.3em 1em;
+						display: inline-block;
+					}
 
                     &:hover {
-//                        color: @gray;
-						border-bottom-color: rgba(0,0,0,0.1);
+						@media (max-width: @screen-xs-max){
+							color: @gray;
+						}
+						@media (min-width: @screen-sm-min){
+							border-bottom-color: rgba(0,0,0,0.1);
+						}
                     }
 
                     &.active {
-                        border-bottom-color: @green !important;
+						@media (max-width: @screen-xs-max){
+                        	color: darken(@green,15%) !important;
+						}
+						@media (min-width: @screen-sm-min){
+                        	border-bottom-color: @green !important;
+						}
                     }
                 }
 
                 &:first-child {
-                    a {
-                        margin-left: 0;
-                    }
+					@media (min-width: @screen-sm-min){
+	                    a {
+	                        margin-left: 0;
+	                    }
+					}
                 }
             }
         }
