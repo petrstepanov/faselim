@@ -7,13 +7,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1453184767555">
-        <link rel="shortcut icon" href="favicon.ico">        
+        <link rel="stylesheet" href="css/selimlab.css?t=1453223118916">
+        <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
         <?php include_once("include/analyticstracking.php") ?>
         <?php require_once('include/navbar.php'); ?>
-        <div class="container">
+        <div class="container font-size-controller">
             <div class="row">
                 <div class="col-xs-12">
                     <h1>Teaching</h1>
@@ -33,7 +33,7 @@
             require('include/scripts.php');
         ?>
         <script>
-            $('.nav #teaching').addClass('active');
+            $('.nav #teaching, #teaching a').addClass('active');
         </script>
     </body>
 </html>

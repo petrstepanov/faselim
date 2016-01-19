@@ -7,13 +7,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1453184767551">
+        <link rel="stylesheet" href="css/selimlab.css?t=1453223118911">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
         <?php include_once("include/analyticstracking.php") ?>
         <?php require_once('include/navbar.php'); ?>
-        <div class="container">
+        <div class="container font-size-controller">
             <div class="row">
                 <div class="col-xs-12">
                     <h1>People</h1>
@@ -21,7 +21,7 @@
                     <h3>Birthday Celebration<br /><small>Maumee Bay Brewing Co.</small></h3>
                     <img src="img/selim-group.jpg" alt="SelimLab group 2015 at Maumee Bay Brewing Co." class="full-width"/>
                     <div class="spacer-2em"></div>
-                    <p><strong>From left to right</strong>: Farida Selim, Sunil Thapa, Anthony Colosimo, Pooneh Saadatkia, George Hargenrader, Tara Gray, Petr Stepanov, Ben Hardy, ... , David Winarski</p>
+                    <p><strong>From left to right</strong>: Farida Selim, Sunil Thapa, Anthony Colosimo, Pooneh Saadatkia, George Hargenrader, Tara Gray, Petr Stepanov, Ben Hardy, Mike , David Winarski</p>
                     <div class="spacer-2em"></div>
 
                     <h3>Celebrating Jianfeng Ji doctorate degree<br /><small>The Toledo Museum of Art, Spring 2015.</small></h3>
@@ -80,7 +80,7 @@
             require('include/scripts.php');
         ?>
         <script>
-            $('.nav #people').addClass('active');
+            $('.nav #people, #people a').addClass('active');
         </script>
     </body>
 </html>
