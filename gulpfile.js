@@ -1,3 +1,4 @@
+// bower install
 // sudo npm install gulp gulp-uglify gulp-rename gulp-less gulp-concat gulp-plumber gulp-cache-bust gulp-replace --save-dev
 
 // Required
@@ -21,13 +22,14 @@ gulp.task('scripts', function(){
         .pipe(plumber())                    // prevents breaking and has to go first here
         .pipe(gulp.dest('js/vendor/'));
 
-    // Concat vendor javascript and our javascript and minify everything
-    gulp.src(['js/vendor/*.js',
+    // Concat vendor javascript and our javascript
+    gulp.src(['js/vendor/jquery.js',
+              'js/vendor/bootstrap.js',
 			  'js/main.js'
 		  ])
         .pipe(plumber())                    // prevents breaking and has to go first here
         .pipe(concat('selimlab.js'))
-		.pipe(uglify())
+        .pipe(uglify())
         .pipe(rename({suffix: '.min'}))
 		.pipe(gulp.dest('js/'));
 });

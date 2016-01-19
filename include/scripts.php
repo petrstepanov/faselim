@@ -1,4 +1,12 @@
-        <script src="js/faselim.min.js"></script>
+        <?php $scriptsMinified = true; ?>
+
+        <?php if ($scriptsMinified == true){ ?>
+            <script src="js/selimlab.min.js"></script>
+        <?php } else { ?>
+            <script src="js/vendor/jquery.js"></script>
+            <script src="js/vendor/bootstrap.js"></script>
+            <script src="js/main.js"></script>
+        <?php } ?>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
