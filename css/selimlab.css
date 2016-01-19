@@ -6326,6 +6326,11 @@ html {
     margin-left: 0;
   }
 }
+@media (min-width: 992px) {
+  .selim-navbar-container .selim-navbar .navigation {
+    text-align: right;
+  }
+}
 .selim-navbar-container .selim-navbar .navigation li {
   display: inline;
 }
