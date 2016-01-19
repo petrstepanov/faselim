@@ -7,12 +7,27 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1453226239020">
+        <link rel="stylesheet" href="css/selimlab.css?t=1453230388754">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
         <?php include_once("include/analyticstracking.php") ?>
         <?php require_once('include/navbar.php'); ?>
+        <div class="news-container">
+            <div class="container font-size-controller">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2>Accidental discovery dramatically improves electrical conductivity in perovskite SrTiO<sub>3</sub></h2>
+                        <div class="flex">
+                            <span class="badge">Nov 14, 2013</span>
+                            <p>Quite by accident, Washington State University researchers have achieved a 400-fold increase in the electrical conductivity of a crystal simply by exposing it to light. <a href="http://phys.org/news/2013-11-accidental-discovery-electrical.html" rel="nofollow">read more</a></p>
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-4">
+                    </div> -->
+                </div>
+            </div>
+        </div>
         <div class="container font-size-controller">
             <div class="row">
                 <div class="col-sm-8">
@@ -65,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 col-sm-offset-1">
+                <div class="col-sm-3 col-sm-offset-1 column-shift">
                     <img src="img/farida-selim.jpg" alt="Farida Selim" class="welcome-img"/>
 
                     <p class="lead">Dr. Farida A. Selim</p>
