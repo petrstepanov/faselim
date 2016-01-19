@@ -18,9 +18,9 @@ RewriteRule ^(.+)$ $1.html [L,QSA]
 
 
 # old website structure - redirects
-Redirect 301 /~faselim/Welcome.html      /~faselim/
-Redirect 301 /~faselim/Facilities.html   /~faselim/facilities
-Redirect 301 /~faselim/People.html       /~faselim/people
-Redirect 301 /~faselim/Publications.html /~faselim/publications
-Redirect 301 /~faselim/Research.html     /~faselim/research
-Redirect 301 /~faselim/Teaching.html     /~faselim/teaching
+Redirect 301 /~faselim/welcome.html      /~faselim/
+Redirect 301 /~faselim/facilities.html   /~faselim/facilities
+Redirect 301 /~faselim/people.html       /~faselim/people
+Redirect 301 /~faselim/publications.html /~faselim/publications
+Redirect 301 /~faselim/research.html     /~faselim/research
+Redirect 301 /~faselim/teaching.html     /~faselim/teaching
