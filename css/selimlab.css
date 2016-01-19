@@ -1196,7 +1196,6 @@ a {
 }
 a .icon {
   fill: #337ab7;
-  margin-right: 0.75em;
   -webkit-transition: fill 200ms ease-out;
   -o-transition: fill 200ms ease-out;
   transition: fill 200ms ease-out;
@@ -6483,6 +6482,7 @@ h4 {
   line-height: 2.5;
 }
 .column-shift .icon {
+  margin-right: 0.75em;
   position: relative;
   top: 0.35em;
 }
