@@ -14,12 +14,12 @@
                         <ul class="nav navbar-nav">
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li id="index"><a href="http://physics.bgsu.edu/~faselim/">Welcome</a></li>
-                            <li id="research"><a href="http://physics.bgsu.edu/~faselim/research">Research</a></li>
-                            <li id="facilities"><a href="http://physics.bgsu.edu/~faselim/facilities">Facilities</a></li>
-                            <li id="publications"><a href="http://physics.bgsu.edu/~faselim/publications">Publications</a></li>
-                            <li id="teaching"><a href="http://physics.bgsu.edu/~faselim/teaching">Teaching</a></li>
-                            <li id="people"><a href="http://physics.bgsu.edu/~faselim/people">People</a></li>
+                            <li id="index"><a href="./">Welcome</a></li>
+                            <li id="research"><a href="./research">Research</a></li>
+                            <li id="facilities"><a href="./facilities">Facilities</a></li>
+                            <li id="publications"><a href="./publications">Publications</a></li>
+                            <li id="teaching"><a href="./teaching">Teaching</a></li>
+                            <li id="people"><a href="./people">People</a></li>
                         </ul>
                     </div>
                 </div>

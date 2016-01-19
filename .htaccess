@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /
+RewriteBase /~faselim/
 
 #RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 #RewriteRule ^(.*)$ http://%1/$1 [R=302,L]
@@ -15,7 +15,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+)$ $1.html [L,QSA]
-
 
 # old website structure - redirects
 Redirect 301 /~faselim/welcome.html      /~faselim/
