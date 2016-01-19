@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="css/selimlab.css">
-        <link rel="shortcut icon" href="favicon.ico">        
+        <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
         <?php include_once("include/analyticstracking.php") ?>
@@ -18,11 +18,18 @@
                 <div class="col-xs-12">
                     <h1>People</h1>
                     <div class="spacer-2em"></div>
+                    <h3>Birthday Celebration<br /><small>Maumee Bay Brewing Co.</small></h3>
+                    <img src="img/selim-group.jpg" alt="SelimLab group 2015 at Maumee Bay Brewing Co." class="full-width"/>
+                    <div class="spacer-2em"></div>
+                    <p><strong>From left to right</strong>: Farida Selim, Sunil Thapa, Anthony Colosimo, Pooneh Saadatkia, George Hargenrader, Tara Gray, Petr Stepanov, Ben Hardy, ... , David Winarski</p>
+                    <div class="spacer-2em"></div>
+
                     <h3>Celebrating Jianfeng Ji doctorate degree<br /><small>The Toledo Museum of Art, Spring 2015.</small></h3>
                     <img src="img/selim-lab-our-group-2015.jpg" alt="SelimLab group 2015 at Toledo Art Museum" class="full-width"/>
                     <div class="spacer-2em"></div>
                     <p><strong>From left to right</strong>: Petr Stepanov, Pooneh Saadatkia, Anthony Colosimo, Sunil Thapa, David Winarski, Ben Hardy, Jianfeng Ji, Farida Selim</p>
                     <div class="spacer-2em"></div>
+
                     <h3>Group Alumni<br /><small>Washington State University</small></h3>
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
