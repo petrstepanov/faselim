@@ -6193,6 +6193,122 @@ button.close {
     display: none !important;
   }
 }
+html {
+  -webkit-font-smoothing: antialiased;
+}
+.icon {
+  height: 1em;
+  width: 1em;
+  display: inline-block;
+}
+.selim-navbar-container {
+  background-color: #f5f5f5;
+  position: relative;
+  z-index: 100;
+  box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+}
+.selim-navbar-container .selim-navbar {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .selim-navbar-container .selim-navbar {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .selim-navbar-container .selim-navbar {
+    flex-direction: column;
+  }
+}
+.selim-navbar-container .selim-navbar .toggle-menu {
+  display: none;
+  position: relative;
+  top: 2px;
+  padding: 0.8em;
+  margin-right: -0.8em;
+}
+@media (max-width: 767px) {
+  .selim-navbar-container .selim-navbar .toggle-menu {
+    display: inline-block;
+  }
+}
+.selim-navbar-container .selim-navbar .toggle-menu .icon {
+  -webkit-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  fill: #888888;
+}
+.selim-navbar-container .selim-navbar .toggle-menu:hover .icon {
+  fill: #555555;
+}
+@media (max-width: 767px) {
+  .selim-navbar-container .selim-navbar .logo {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 6em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .selim-navbar-container .selim-navbar .logo {
+    margin-top: 1.8em;
+    margin-bottom: 0.5em;
+    width: 4em;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .selim-navbar-container .selim-navbar .logo {
+    margin: 2em 3em 2em 0;
+    width: 5em;
+  }
+}
+@media (min-width: 1200px) {
+  .selim-navbar-container .selim-navbar .logo {
+    width: 6em;
+    margin: 2.5em 4em 2.5em 0;
+  }
+}
+.selim-navbar-container .selim-navbar .navigation {
+  flex-grow: 2;
+  text-align: right;
+  margin: 2em 0;
+  padding: 0;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .selim-navbar-container .selim-navbar .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .selim-navbar-container .selim-navbar .navigation li a {
+    margin-left: 0;
+  }
+}
+.selim-navbar-container .selim-navbar .navigation li {
+  display: inline;
+}
+.selim-navbar-container .selim-navbar .navigation li a {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  color: #888888;
+  border-bottom: 0.25em solid transparent;
+  margin-left: 4em;
+  padding: 0.26666667em 0;
+  -webkit-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.selim-navbar-container .selim-navbar .navigation li a:hover {
+  color: #555555;
+}
+.selim-navbar-container .selim-navbar .navigation li a.selected {
+  border-bottom-color: #5ccbac;
+}
+.selim-navbar-container .selim-navbar .navigation li:first-child a {
+  margin-left: 0;
+}
 .welcome-img {
   margin-top: 1.5em;
   width: 100%;
