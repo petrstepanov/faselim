@@ -6312,13 +6312,9 @@ html {
     padding-bottom: 1em;
   }
 }
-@media (min-width: 768px) {
-  .selim-navbar-container .selim-navbar .navigation {
-    display: flex !important;
-  }
-}
 @media (min-width: 768px) and (max-width: 991px) {
   .selim-navbar-container .selim-navbar .navigation {
+    display: flex !important;
     justify-content: space-between;
     width: 100%;
   }
@@ -6328,7 +6324,7 @@ html {
 }
 @media (min-width: 992px) {
   .selim-navbar-container .selim-navbar .navigation {
-    text-align: right;
+    display: block !important;
   }
 }
 .selim-navbar-container .selim-navbar .navigation li {

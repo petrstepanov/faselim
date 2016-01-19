@@ -82,11 +82,8 @@ html {
 				padding-bottom: 1em;
 			}
 
-			@media (min-width: @screen-sm-min){
-                display: flex !important;
-			}
-
             @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+                display: flex !important;
                 justify-content: space-between;
                 width: 100%;
 
@@ -96,7 +93,7 @@ html {
             }
 
             @media (min-width: @screen-md-min) {
-				text-align: right;
+				display: block !important;
 			}
 
             li {
