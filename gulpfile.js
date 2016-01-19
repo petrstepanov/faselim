@@ -46,7 +46,7 @@ gulp.task('styles', function(){
 // CacheBust https://www.npmjs.com/package/gulp-cache-bust
 
 gulp.task('cache', function(){
-    gulp.src('./*.html')
+    gulp.src('./*.php')
         .pipe(replace(/(\?t=(\d)*)*/g, ''))    // http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/ https://regex101.com/#javascript
 	    .pipe(cachebust({type: 'timestamp'}))
 	    .pipe(gulp.dest('./'));
