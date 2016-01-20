@@ -25,7 +25,8 @@ gulp.task('scripts', function(){
     // Concat vendor javascript and our javascript
     gulp.src(['js/vendor/jquery.js',
               'js/vendor/bootstrap.js',
-			  'js/main.js'
+			  'js/main.js',
+              'js/jquery-easing-effects.js',              
 		  ])
         .pipe(plumber())                    // prevents breaking and has to go first here
         .pipe(concat('selimlab.js'))

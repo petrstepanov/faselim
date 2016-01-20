@@ -19,9 +19,18 @@
 a {
   .transition(color @fast ease-out);
 
+  .icon {
+      fill: @link-color;
+      .transition(fill @fast ease-out);
+  }
+
   &:hover,
   &:focus {
     text-decoration: none;
+
+    .icon {
+        fill: @link-hover-color;
+    }
   }
 
   &:focus {
@@ -30,6 +39,23 @@ a {
 }
 
 @import "bootstrap-3.3.5/type.less";
+
+// small, .small {
+//     font-size: @font-size-12
+// }
+
+.lead {
+    font-size: @font-size-21;
+    margin-bottom: @font-size-12/@font-size-21;
+
+    &.sublead {
+        margin-top: 0;
+        text-transform: uppercase;
+        font-size: @font-size-12;
+        letter-spacing: 0.1em;
+        opacity: 0.5;
+    }
+}
 
 h1, .h1,
 h2, .h2,
