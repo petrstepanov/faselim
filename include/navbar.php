@@ -1,5 +1,5 @@
 <div class="selim-navbar-container">
-    <div class="container">
+    <header class="container">
         <div class="row">
             <div class="col-xs-12">
                 <div class="selim-navbar">
@@ -22,5 +22,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 </div>

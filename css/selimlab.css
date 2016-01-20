@@ -28,6 +28,15 @@
 .flex {
   display: flex;
 }
+.flex.start {
+  align-items: flex-start;
+}
+.flex.center {
+  align-items: center;
+}
+.flex.space-between {
+  justify-content: space-between;
+}
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -6415,10 +6424,7 @@ hr {
 .news-container {
   background-color: #65a9d2;
   color: white;
-  padding-bottom: 3em;
-}
-.news-container h2 {
-  margin: 2em 0 1.5em 0;
+  padding-bottom: 2.4em;
 }
 .news-container .badge {
   background-color: white;
@@ -6452,15 +6458,17 @@ h6 {
   font-family: "bitterbold", Georgia, "Times New Roman", serif;
 }
 h1 {
+  font-size: 2.3125em;
   margin-top: 1.72972973em;
   margin-bottom: 0.86486486em;
-  font-size: 2.3125em;
 }
 h1 small {
   opacity: 0.5;
 }
 h2 {
   font-size: 1.75em;
+  margin-top: 2.28571429em;
+  margin-bottom: 1.14285714em;
 }
 h3 {
   font-size: 1.3125em;
@@ -6472,6 +6480,7 @@ h4 {
   .column-shift {
     position: relative;
     top: -15em;
+    margin-bottom: -15em;
   }
 }
 .column-shift .icon {
@@ -6504,10 +6513,40 @@ h4 {
   line-height: 4.66666667em;
   color: #777777;
 }
+ul.spaced,
+ol.spaced {
+  position: relative;
+  padding-left: 2em;
+}
+ul.spaced:before,
+ol.spaced:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2em;
+  background-color: rgba(255, 255, 255, 0.65);
+  z-index: 100;
+}
 ul.spaced li,
 ol.spaced li {
+  padding-left: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+ul.spaced {
+  padding-left: 1.2em;
+}
+ul.spaced:before {
+  width: 1.2em;
+}
+.research-icon {
+  width: 5.25em;
+  height: 5.25em;
+  margin: 1.5em 2em 1.5em 0;
+  position: relative;
+  top: -0.4em;
 }
 .fund-link {
   display: inline-block;
@@ -6516,6 +6555,103 @@ ol.spaced li {
 .fund-link img {
   width: 50%;
   margin-bottom: 1em;
+}
+@media (max-width: 991px) {
+  .footer-container {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#555555+0,555555+50,555555+50,484848+50,484848+100 */
+    background: #555555;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #555555 0%, #555555 50%, #555555 50%, #484848 50%, #484848 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #555555 0%, #555555 50%, #555555 50%, #484848 50%, #484848 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #555555 0%, #555555 50%, #555555 50%, #484848 50%, #484848 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#555555', endColorstr='#484848', GradientType=0);
+    /* IE6-9 */
+  }
+}
+@media (min-width: 992px) {
+  .footer-container {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#555555+0,555555+75,484848+76,484848+100 */
+    background: #555555;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #555555 0%, #555555 75%, #484848 76%, #484848 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #555555 0%, #555555 75%, #484848 76%, #484848 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #555555 0%, #555555 75%, #484848 76%, #484848 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#555555', endColorstr='#484848', GradientType=1);
+    /* IE6-9 */
+  }
+}
+.footer-container .left-column,
+.footer-container .right-column {
+  padding: 4em 0;
+}
+@media (max-width: 991px) {
+  .footer-container .left-column,
+  .footer-container .right-column {
+    padding: 2em 0;
+    text-align: left;
+  }
+}
+.footer-container .left-column a,
+.footer-container .right-column a {
+  font-weight: bold;
+  color: white;
+  font-size: 0.75em;
+  opacity: 0.4;
+  -webkit-transition: opacity 200ms ease-in;
+  -o-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+}
+.footer-container .left-column a:hover,
+.footer-container .right-column a:hover {
+  color: white;
+  opacity: 0.55;
+}
+@media (min-width: 992px) {
+  .footer-container .left-column {
+    background-color: #555555;
+    text-align: left;
+  }
+}
+.footer-container .left-column .logo-grayscale {
+  height: 5em;
+  margin-bottom: 1.75em;
+}
+@media (min-width: 992px) {
+  .footer-container .left-column .flex {
+    margin-right: 4em;
+  }
+}
+@media (min-width: 992px) {
+  .footer-container .right-column {
+    background-color: #484848;
+    text-align: right;
+  }
+}
+.footer-container .right-column a {
+  display: inline-block;
+  -webkit-transition: opacity 200ms ease-in;
+  -o-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+  text-align: center;
+  margin-left: 4em;
+}
+.footer-container .right-column a:first-child {
+  margin-left: 0;
+}
+.footer-container .right-column a .icon {
+  width: 6.66666667em;
+  height: 6.66666667em;
+  fill: white;
+  margin-bottom: 1.33333333em;
+}
+.footer-container .right-column a span {
+  display: inline-block;
 }
 .spacer-1em {
   height: 1em;

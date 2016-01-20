@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1453232510000">
+        <link rel="stylesheet" href="css/selimlab.css?t=1453249540968">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -52,33 +52,6 @@
                     </ul>
                     <p>The technique has been recently adopted to build a unique materials research facility at the superconducting accelerator facility at Dresden, Germany and named as GIPS (Gamma-Induced Positron Spectroscopy), <a href="http://www.hzdr.de/db/Cms?pNid=1732">ELBE – Center for High-Power Radiation Sources - Helmholtz-Zentrum Dresden-Rossendorf, HZDR</a>. The technique has extended PAS application to many new fields in materials Science.</p>
                     <p>In 2012, Selim group also developed a new optical spectrometer “x-ray induced luminescence spectroscopy” that substantially enhanced study of luminescence centers and <a href="http://scitation.aip.org/content/aip/journal/rsi/83/10/10.1063/1.4764772">scintillation properties in photonic materials</a>.</p>
-
-                    <div class="spacer-1em"></div>
-                    <h3>Our major research projects include:</h3>
-                    <ul class="spaced">
-                        <li>Defect studies and radiation damage.</li>
-                        <li>Fundamental and applied research on wide band gap materials. Synthesis and characterization."</li>
-                        <li>Photoinduced effect in complex oxides.</li>
-                    </ul>
-
-                    <div class="spacer-1em"></div>
-                    <h3>SelimLab is funded by</h3>
-                    <div class="row">
-                        <div class="col-sm-6 text-center">
-                            <a href="http://www.nsf.gov/" class="fund-link">
-                                <img src="img/nsf-logo.png" />
-                                <br />
-                                <span>National Science Foundation</span>
-                            </a>
-                        </div>
-                        <div class="col-sm-6 text-center">
-                            <a href="http://www.af.mil/" class="fund-link">
-                                <img src="img/us-airforce-logo.png" />
-                                <br />
-                                <span>U.S. Air Force</span>
-                            </a>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-sm-3 col-sm-offset-1 column-shift">
                     <img src="img/farida-selim.jpg" alt="Farida Selim" class="welcome-img"/>
@@ -99,6 +72,23 @@
                             <strong>(419) 372-9956</strong>
                         </a>
                     </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Our major research projects include:</h2>
+                </div>
+                <div class="col-xs-12 col-md-5">
+                    <div class="flex center">
+                        <img class="research-icon" src="img/icon-band-gap.png"/>
+                        <p>Fundamental and applied research on wide <strong>band gap materials</strong>. Synthesis and characterization.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-md-offset-1">
+                    <div class="flex center">
+                        <img class="research-icon" src="img/icon-radiational-damage.png"/>
+                        <p><strong>Defect studies and radiation damage</strong>. We are experienced in following metods: XRD, PALS, DBR, FTIR.</p>
+                    </div>
                 </div>
             </div>
         </div>
