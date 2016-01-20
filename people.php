@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1453250094064">
+        <link rel="stylesheet" href="css/selimlab.css?t=1453308164739">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -21,7 +21,7 @@
                     <h3>Birthday Celebration<br /><small>Maumee Bay Brewing Co.</small></h3>
                     <img src="img/selim-group.jpg" alt="SelimLab group 2015 at Maumee Bay Brewing Co." class="full-width"/>
                     <div class="spacer-2em"></div>
-                    <p><strong>From left to right</strong>: Farida Selim, Sunil Thapa, Anthony Colosimo, Pooneh Saadatkia, George Hargenrader, Tara Gray, Petr Stepanov, Ben Hardy, Mike , David Winarski</p>
+                    <p><strong>From left to right</strong>: Farida Selim, Sunil Thapa, Anthony Colosimo, Pooneh Saadatkia, George Hargenrader, Tara Gray, Petr Stepanov, Ben Hardy, Micah Haseman, David Winarski</p>
                     <div class="spacer-2em"></div>
 
                     <h3>Celebrating Jianfeng Ji doctorate degree<br /><small>The Toledo Museum of Art, Spring 2015.</small></h3>

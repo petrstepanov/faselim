@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1453250093761">
+        <link rel="stylesheet" href="css/selimlab.css?t=1453308164468">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -19,7 +19,7 @@
                     <div class="col-sm-8">
                         <h2>Accidental discovery dramatically improves electrical conductivity in perovskite SrTiO<sub>3</sub></h2>
                         <div class="flex">
-                            <span class="badge">Nov 14, 2013</span>
+                            <span class="badge">Nov 14<span class="hidden-xs hidden-sm">,</span><br class="visible-xs visible-sm"/> 2013</span>
                             <p>Quite by accident, Washington State University researchers have achieved a 400-fold increase in the electrical conductivity of a crystal simply by exposing it to light. <a href="http://phys.org/news/2013-11-accidental-discovery-electrical.html" rel="nofollow">read more</a></p>
                         </div>
                     </div>
@@ -33,23 +33,28 @@
                 <div class="col-sm-8">
                     <h1>Welcome to our Group at BGSU</h1>
                     <p>Farida Selim is the inventor of Accelerator based positron annihilation spectroscopy (APAS) technique, known today as Gamma induced positron spectroscopy (GIPS). Instead of using positron particles, the technique uses MeV gamma rays from accelerators to create positrons inside the sample by pair production and conduct Doppler broadening and positron lifetime measurements. For more information read some of Selim early publications:</p>
-                    <ul class="spaced">
+                    <div class="spacer-1em"></div>
+                    <ul class="spaced plain">
                         <li>
-                            <a href="http://scitation.aip.org/content/aip/journal/jap/97/11/10.1063/1.1925769">
-                                Development of accelerator-based γ-ray-induced positron annihilation spectroscopy technique
+                            <a class="flex center" href="http://scitation.aip.org/content/aip/journal/jap/97/11/10.1063/1.1925769">
+                                <span class="my-badge">pdf</span>
+                                <span>Development of accelerator-based γ-ray-induced positron annihilation spectroscopy technique</span>
                             </a>
                         </li>
                         <li>
-                            <a href="http://scitation.aip.org/content/aip/journal/rsi/76/3/10.1063/1.1863772">
-                                Positron lifetime measurements by proton capture
+                            <a class="flex center" href="http://scitation.aip.org/content/aip/journal/rsi/76/3/10.1063/1.1863772">
+                                <span class="my-badge">pdf</span>
+                                <span>Positron lifetime measurements by proton capture</span>
                             </a>
                         </li>
                         <li>
-                            <a href="http://scitation.aip.org/content/aip/journal/jap/97/11/10.1063/1.1925770">
-                                High depth nondestructive stress measurements on thick steel alloys
+                            <a class="flex center" href="http://scitation.aip.org/content/aip/journal/jap/97/11/10.1063/1.1925770">
+                                <span class="my-badge">pdf</span>
+                                <span>High depth nondestructive stress measurements on thick steel alloys</span>
                             </a>
                         </li>
                     </ul>
+                    <div class="spacer-1em"></div>                    
                     <p>The technique has been recently adopted to build a unique materials research facility at the superconducting accelerator facility at Dresden, Germany and named as GIPS (Gamma-Induced Positron Spectroscopy), <a href="http://www.hzdr.de/db/Cms?pNid=1732">ELBE – Center for High-Power Radiation Sources - Helmholtz-Zentrum Dresden-Rossendorf, HZDR</a>. The technique has extended PAS application to many new fields in materials Science.</p>
                     <p>In 2012, Selim group also developed a new optical spectrometer “x-ray induced luminescence spectroscopy” that substantially enhanced study of luminescence centers and <a href="http://scitation.aip.org/content/aip/journal/rsi/83/10/10.1063/1.4764772">scintillation properties in photonic materials</a>.</p>
                 </div>

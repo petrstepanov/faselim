@@ -6434,11 +6434,19 @@ hr {
   border-radius: 0.25em;
   font-style: italic;
   white-space: nowrap;
-  min-width: auto;
+  min-width: 8em;
   padding: 0.53333333em 0.66666667em;
+}
+@media (max-width: 991px) {
+  .news-container .badge {
+    text-align: center;
+    line-height: 1.5;
+    min-width: 5.33333333em;
+  }
 }
 .news-container a {
   color: #2f77a2;
+  font-weight: bold;
 }
 .news-container a:hover {
   color: #245a7a;
@@ -6491,9 +6499,9 @@ h4 {
   line-height: 2.5;
 }
 .column-shift .icon {
-  margin-right: 0.75em;
+  margin-right: 0.5em;
   position: relative;
-  top: 0.35em;
+  top: 0.38em;
 }
 .welcome-img {
   margin-top: 1.5em;
@@ -6513,10 +6521,38 @@ h4 {
   line-height: 4.66666667em;
   color: #777777;
 }
+.my-badge {
+  color: #888888;
+  font-size: 0.75em;
+  font-weight: bold;
+  margin-right: 1.33333333em;
+  text-transform: uppercase;
+  letter-spacing: 0.13333333em;
+  padding: 0.66666667em 0;
+  display: inline-block;
+  text-align: center;
+  min-width: 4.8em;
+  width: 4.8em;
+  border-radius: 0.33333333em;
+  border: 2px solid #cccccc;
+}
 ul.spaced,
 ol.spaced {
   position: relative;
   padding-left: 2em;
+}
+ul.spaced.plain,
+ol.spaced.plain {
+  list-style-type: none;
+  padding-left: 0;
+}
+ul.spaced.plain:before,
+ol.spaced.plain:before {
+  display: none;
+}
+ul.spaced.plain li,
+ol.spaced.plain li {
+  padding-left: 0;
 }
 ul.spaced:before,
 ol.spaced:before {
@@ -6543,6 +6579,7 @@ ul.spaced:before {
 }
 .research-icon {
   width: 5.25em;
+  min-width: 5.25em;
   height: 5.25em;
   margin: 1.5em 2em 1.5em 0;
   position: relative;
