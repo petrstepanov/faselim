@@ -2,7 +2,7 @@
     <div class="footer-container font-size-controller">
         <footer class="container">
             <div class="col-xs-12 col-md-8 left-column">
-                <img src="img/selimlab-logo-grayscale.png" class="logo-grayscale" />
+                <img src="img/selimlab-logo-grayscale.png" class="hidden-xs hidden-sm logo-grayscale" />
                 <nav class="flex space-between">
                     <a href="./">Welcome</a>
                     <a href="./research">Research</a>
