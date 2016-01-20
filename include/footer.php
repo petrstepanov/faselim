@@ -1,4 +1,4 @@
-    <div class="spacer-2em"></div>
+    <div class="spacer-4em"></div>
     <div class="footer-container font-size-controller">
         <footer class="container">
             <div class="col-xs-12 col-md-8 left-column">
