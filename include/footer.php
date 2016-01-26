@@ -5,7 +5,8 @@
                 <img src="img/selimlab-logo-grayscale.png" class="hidden-xs hidden-sm logo-grayscale" />
                 <nav class="flex space-between">
                     <a href="./">Welcome</a>
-                    <a href="./research">Research</a>
+                    <a href="./research" style="display: none">Research</a>
+                    <a href="./s-w-doppler-parameters-software">Software</a>
                     <a href="./facilities">Facilities</a>
                     <a href="./publications">Publications</a>
                     <a href="./teaching">Teaching</a>
