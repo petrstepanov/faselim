@@ -6690,6 +6690,9 @@ ul.spaced:before {
 .footer-container .right-column a span {
   display: inline-block;
 }
+.btn.wrap {
+  white-space: normal;
+}
 .paypal-form {
   text-align: center;
   background-color: #f5f5f5;
