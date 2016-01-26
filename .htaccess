@@ -17,7 +17,7 @@ RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+)$ $1.html [L,QSA]
 
 # old website structure - redirects
-Redirect 301 /~faselim/welcome.html      /~faselim/
+Redirect 301 /~faselim/Welcome.html      /~faselim/
 Redirect 301 /~faselim/facilities.html   /~faselim/facilities
 Redirect 301 /~faselim/people.html       /~faselim/people
 Redirect 301 /~faselim/publications.html /~faselim/publications
