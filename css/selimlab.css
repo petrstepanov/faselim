@@ -6690,6 +6690,16 @@ ul.spaced:before {
 .footer-container .right-column a span {
   display: inline-block;
 }
+.paypal-form {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 3em 0;
+}
+@media (min-width: 992px) {
+  .paypal-form {
+    padding: 2em 0;
+  }
+}
 .spacer-1em {
   height: 1em;
 }

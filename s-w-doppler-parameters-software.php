@@ -7,7 +7,7 @@
         <meta name="description" content="The software might be quite useful for solid-state physicists who do materials characterization and work with positron spectroscopy">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1453175987239">
+        <link rel="stylesheet" href="css/selimlab.css?t=1453776676047">
     </head>
     <body>
         <?php include_once("include/analyticstracking.php") ?>
@@ -24,7 +24,7 @@
                     <div class="spacer-1em"></div>
                     <ul class="spaced">
                         <li>Supports a variety of different formats of input data files.</li>
-                        <li>Fit the 511 peak with four gaussian functions and atan() background.</li>
+                        <li>Fit the 511 peak with four gaussian functions and subtract atan() background.</li>
                         <li>Calculate S and W parameters for a series of spectra.</li>
                         <li>Export data points, fit and chi^2 to a .CSV file.</li>
                         <li>Save raster fit images.</li>
@@ -38,12 +38,12 @@
                     </p>
                     <div class="spacer-2em"></div>
 
-                    <p>You can download this software from the GitHub repository above. As well as the source code - you can find precompiled binaries for MacOS, Ubuntu and Windows. Shout us a word at <a title="Contact us" href="mailto: faridaselimlab@gmail.com">&#102;&#097;&#114;&#105;&#100;&#097;&#115;&#101;&#108;&#105;&#109;&#108;&#097;&#098;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>. We'd love to hear any recommendations</a> to make the software better.</p>
+                    <p>The app is cross-platform, developed using CERN ROOT framework. GUI is based on the Xclass'95 widget library. You can download this software from the GitHub repository - download button above. As well as the source code - you can find precompiled binaries for MacOS, Ubuntu and Windows.</p><p>Shout us a word at <a title="Contact us" href="mailto: faridaselimlab@gmail.com">&#102;&#097;&#114;&#105;&#100;&#097;&#115;&#101;&#108;&#105;&#109;&#108;&#097;&#098;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>. We'd love to hear any recommendations</a> to make the software better.</p>
 
                     <div class="spacer-2em"></div>
                     <div class="row">
                         <div class="col-sm-4 col-md-3">
-                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="text-align: center; padding: 3em 0; background-color: #f5f5f5" target="_top">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="paypal-form" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
                             ">
@@ -52,9 +52,10 @@
                             </form>
                         </div>
                         <div class="col-sm-7 col-sm-offset-1 col-md-8 col-md-offset-1">
-                            <p>Donations are never expected gut always gratefully appreciated.</p>
+                            <div class="spacer-2em visible-xs"></div>
+                            <p><strong>Donations are never expected gut always gratefully appreciated.</strong></p>
                             <div class="spacer-1em"></div>
-                            <p><small>Petr Stepanov, the developer of the app would like to honor special thanks to <a href="https://www.researchgate.net/profile/Dmitry_Zvezhinskiy" target="_blank">Dmitry Zvezhinsky</a> – his scientific advisor in the <a href="http://www.itep.ru/eng/" target="_blank">Institute for Theoretical and Experimental Physics</a>.</small></p>
+                            <p><small>P.S. Petr Stepanov, the developer of the app would like to honor special thanks to <a href="https://www.researchgate.net/profile/Dmitry_Zvezhinskiy" target="_blank">Dmitry Zvezhinsky</a> – his scientific advisor in the <a href="http://www.itep.ru/eng/" target="_blank">Institute for Theoretical and Experimental Physics</a>.</small></p>
                         </div>
                     </div>
                 </div>
