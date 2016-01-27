@@ -21,8 +21,25 @@
                     <h3>Spring 2014</h3>
                     <p>Thermal Physics and Optics</p>
                     <div class="spacer-2em"></div>
+                    <img class="full-width" src="img/optics-lab.jpg" alt="Optics Lab at Overmann Hall, BGSU" />
+                    <div class="spacer-2em"></div>
+                    <img class="full-width" src="img/optics-class.jpg" alt="Optics Class at Selim Lab" />
+                    <div class="spacer-2em"></div>
+                    <img class="full-width" src="img/optics-class-2.jpg" alt="Teaching Optics at SelimLab, Bowling Green State University" />
+                    <div class="spacer-2em"></div>
                     <h3>Fall 2013</h3>
                     <p>Modern Physics Laboratory</p>
+                    <div class="spacer-2em"></div>
+                    <img class="full-width" src="img/j2435-electromagnetic-wave-demonstrator.jpg" alt="J2435 Electromagnetic Wave demonstrator" />
+                    <div class="spacer-2em"></div>
+                    <img class="full-width" src="img/leai-62-electron-diffraction.jpg" alt="LEAI-62 Electron Diffraction" />
+                    <div class="spacer-2em"></div>
+                    <img class="full-width" src="img/leei-35-hall-effect.jpg" alt="LEEI-35 Hall Effect Demonstration" />
+                    <div class="spacer-2em"></div>
+                    <img class="full-width" src="img/leei-42-measuring-magnetic-hysteresis.jpg" alt="LEEI-42 Magnetic Hysteresis Demonstration" />
+                    <div class="spacer-2em"></div>
+                    <img class="full-width" src="img/modern-physics-laboratory.jpg" alt="Modern Physics Laboratory" />
+                    <div class="spacer-2em"></div>
                 </div>
             </div>
         </div>
