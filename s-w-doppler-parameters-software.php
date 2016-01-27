@@ -35,7 +35,7 @@
 
                     <div class="spacer-1em"></div>
                     <p class="text-center">
-                        <a href="https://github.com/petrstepanov/swcalculator" class="btn wrap btn-primary btn-lg"><strong>Download swcalculator</strong> on GitHub</a>
+                        <a href="https://github.com/petrstepanov/swcalculator" rel="nofollow" class="btn wrap btn-primary btn-lg"><strong>Download swcalculator</strong> on GitHub</a>
                     </p>
                     <div class="spacer-2em"></div>
 
@@ -56,7 +56,7 @@
                             <div class="spacer-2em visible-xs"></div>
                             <p><strong>Donations are never expected gut always gratefully appreciated.</strong></p>
                             <div class="spacer-1em"></div>
-                            <p><small>P.S. Petr Stepanov, the developer of the app would like to honor special thanks to <a href="https://www.researchgate.net/profile/Dmitry_Zvezhinskiy" target="_blank">Dmitry Zvezhinsky</a> – his scientific advisor in the <a href="http://www.itep.ru/eng/" target="_blank">Institute for Theoretical and Experimental Physics</a>.</small></p>
+                            <p><small>P.S. Petr Stepanov, the developer of the app would like to honor special thanks to <a href="https://www.researchgate.net/profile/Dmitry_Zvezhinskiy" target="_blank" rel="nofollow">Dmitry Zvezhinsky</a> – his scientific advisor in the <a href="http://www.itep.ru/eng/" target="_blank" rel="nofollow">Institute for Theoretical and Experimental Physics</a>.</small></p>
                         </div>
                     </div>
                 </div>
