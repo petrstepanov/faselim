@@ -14,7 +14,7 @@
                     <ul class="navigation js-navigation">
                         <li id="index"><a href="./">Welcome</a></li>
                         <li id="research" style="display: none"><a href="./research">Research</a></li>
-                        <li id="software"><a href="./s-w-doppler-parameters-software">Software</a></li>
+                        <li id="software"><a href="./software">Software</a></li>
                         <li id="facilities"><a href="./facilities">Facilities</a></li>
                         <li id="publications"><a href="./publications">Publications</a></li>
                         <li id="teaching"><a href="./teaching">Teaching</a></li>

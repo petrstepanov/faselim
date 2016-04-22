@@ -7,7 +7,7 @@
         <meta name="description" content="The software might be quite useful for solid-state physicists who do materials characterization and work with positron spectroscopy">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1461345629472">
+        <link rel="stylesheet" href="css/selimlab.css?t=1461359374934">
     </head>
     <body>
         <?php include_once("include/analyticstracking.php") ?>
@@ -17,9 +17,9 @@
                 <div class="col-xs-12">
                     <h1>SWCalculator. Doppler S and W parameters software.</h1>
 
-                    <p>Recently we have developed a desktop app that <strong>calculates S and W parameters from the Doppler-broadened 511 peak</strong> of ionizing radiation.</p>
+                    <p>The app <strong>calculates S and W parameters from the Doppler-broadened 511 peak</strong> of ionizing radiation.</p>
 
-                    <p>The software might be quite useful for solid-state physicists who do materials characterization and work with positron spectroscopy. Main features are:</p>
+                    <p>SWCalculator might be quite useful for those physicists who work with positron spectroscopy. Main app features are:</p>
 
                     <div class="spacer-1em"></div>
                     <ul class="spaced">
