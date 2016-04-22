@@ -15,34 +15,34 @@
         <div class="container font-size-controller">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1>SWCalculator. Doppler S and W parameters software.</h1>
+                    <h1>TLIST Projector. Two-dimentional energy spectrum processor.</h1>
 
-                    <p>Recently we have developed a desktop app that <strong>calculates S and W parameters from the Doppler-broadened 511 peak</strong> of ionizing radiation.</p>
+                    <p>Doppler broadening of annihilation radiation is a powerful method for studying point defects in materials. At SelimLab we have a fully digital spectrometer that utilizes Canberra's Ge high purity detectors and LYNX digital signal analyzers. Facility outputs two-dimentional spectra that represent pairs of photon energy events, registered simultaneously.</p>
 
-                    <p>The software might be quite useful for solid-state physicists who do materials characterization and work with positron spectroscopy. Main features are:</p>
+                    <p>We developed a special software that processes 2D energy spectrum and outputs 1D doppler-broadened spectrum. Sharing is caring. Enjoy and <a href="#donate">beer our developers</a>.</p>
 
                     <div class="spacer-1em"></div>
                     <ul class="spaced">
-                        <li>Supports a variety of different formats of input data files.</li>
-                        <li>Fit the 511 peak with four gaussian functions and subtract atan() background.</li>
-                        <li>Calculate S and W parameters for a series of spectra.</li>
-                        <li>Export data points, fit and chi^2 to a .CSV file.</li>
-                        <li>Save raster fit images.</li>
+                        <li>Supports the file format output by Canberra's TLIST Data Scanner app.</li>
+                        <li>Fits and subtracts the background sleeves related to three-gamma annihilation events.</li>
+                        <li>The good old method of filtering the events on the diagonal is implemented.</li>
+                        <li>Exports doppler-broadened E1-E2 spectrum.</li>
+                        <li>Saves raster images of the .</li>
                     </ul>
                     <div class="spacer-1em"></div>
 
-                    <img style="width: 100%" src="img/swcalculator-screenshot.png" alt="Screenshot of the SWCalculator app" title="Calculate S and W parameters from the 511 annihilation peak" />
+                    <img style="width: 100%" src="img/tlist-processor-screenshot.png" alt="Screenshot of the TLIST Processor app" title="Get doppler-broadened spectrum from two-dimentional energy plot" />
 
                     <div class="spacer-1em"></div>
                     <p class="text-center">
-                        <a href="https://github.com/petrstepanov/swcalculator" rel="nofollow" class="btn wrap btn-primary btn-lg"><strong>Download swcalculator</strong> on GitHub</a>
+                        <a href="https://github.com/petrstepanov/tlist-processor" rel="nofollow" class="btn wrap btn-primary btn-lg"><strong>Download TLIST Processor</strong> on GitHub</a>
                     </p>
                     <div class="spacer-2em"></div>
 
-                    <p>The app is cross-platform, developed using CERN ROOT framework. GUI is based on the Xclass'95 widget library. You can download this software from the GitHub repository - download button above. As well as the source code - you can find precompiled binaries for MacOS, Ubuntu and Windows.</p><p>Shout us a word at <a title="Contact us" href="mailto: faridaselimlab@gmail.com">&#102;&#097;&#114;&#105;&#100;&#097;&#115;&#101;&#108;&#105;&#109;&#108;&#097;&#098;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>. We'd love to hear any recommendations</a> to make the software better.</p>
+                    <p>The app is cross-platform, built with CERN ROOT framework. GUI is based on the Xclass'95 widget library. Grab the source code or run precompiled binaries for MacOS, Ubuntu and Windows.</p><p>Shout us some feedback at <a title="Contact us" href="mailto: faridaselimlab@gmail.com">&#102;&#097;&#114;&#105;&#100;&#097;&#115;&#101;&#108;&#105;&#109;&#108;&#097;&#098;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a>.</p>
 
                     <div class="spacer-2em"></div>
-                    <div class="row">
+                    <div class="row" id="donate">
                         <div class="col-sm-4 col-md-3">
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="paypal-form" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -56,7 +56,7 @@
                             <div class="spacer-2em visible-xs"></div>
                             <p><strong>Donations are never expected gut always gratefully appreciated.</strong></p>
                             <div class="spacer-1em"></div>
-                            <p><small><b>Acknowledgments</b>. Petr Stepanov honors special thanks to <a href="https://www.researchgate.net/profile/Dmitry_Zvezhinskiy" target="_blank" rel="nofollow">Dmitry Zvezhinsky</a> – his scientific advisor in the <a href="http://www.itep.ru/eng/" target="_blank" rel="nofollow">Institute for Theoretical and Experimental Physics</a>.</small></p>
+                            <p><small>Bless up!</small></p>
                         </div>
                     </div>
                 </div>
