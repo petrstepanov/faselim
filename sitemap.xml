@@ -7,6 +7,18 @@
 		<loc>http://physics.bgsu.edu/~faselim/research</loc>
 	</url>
 	<url>
+		<loc>http://physics.bgsu.edu/~faselim/people</loc>
+	</url>
+	<url>
+		<loc>http://physics.bgsu.edu/~faselim/software</loc>
+	</url>
+	<url>
+		<loc>http://physics.bgsu.edu/~faselim/doppler-annihilation-radiation-software</loc>
+	</url>
+	<url>
+		<loc>http://physics.bgsu.edu/~faselim/s-w-doppler-parameters-software</loc>
+	</url>
+	<url>
 		<loc>http://physics.bgsu.edu/~faselim/facilities</loc>
 	</url>
 	<url>
@@ -14,8 +26,5 @@
 	</url>
 	<url>
 		<loc>http://physics.bgsu.edu/~faselim/teaching</loc>
-	</url>
-	<url>
-		<loc>http://physics.bgsu.edu/~faselim/people</loc>
 	</url>
 </urlset>
