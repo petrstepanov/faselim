@@ -7,7 +7,7 @@
         <meta name="description" content="The software might be quite useful for solid-state physicists who do materials characterization and work with positron spectroscopy">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1461359374934">
+        <link rel="stylesheet" href="css/selimlab.css?t=1461361404821">
     </head>
     <body>
         <?php include_once("include/analyticstracking.php") ?>
@@ -35,7 +35,7 @@
 
                     <div class="spacer-1em"></div>
                     <p class="text-center">
-                        <a href="https://github.com/petrstepanov/swcalculator" rel="nofollow" class="btn wrap btn-primary btn-lg"><strong>Download swcalculator</strong> on GitHub</a>
+                        <a href="https://github.com/petrstepanov/sw-calculator" rel="nofollow" class="btn wrap btn-primary btn-lg"><strong>Download swcalculator</strong> on GitHub</a>
                     </p>
                     <div class="spacer-2em"></div>
 

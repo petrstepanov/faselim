@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1461359374936">
+        <link rel="stylesheet" href="css/selimlab.css?t=1461361404822">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -29,17 +29,19 @@
                             <p>The app transforms two-dimensional energy data of annihilation radiation into a positron-electron momentum distribution.</p>
                             <div class="spacer-2em"></div>
                             <a class="btn btn-primary btn-lg" href="./doppler-annihilation-radiation-software">Learn More</a>
+                            <a class="btn btn-default btn-lg" rel="nofollow "href="https://github.com/petrstepanov/tlist-processor">View on Github</a>
                             <div class="spacer-2em"></div>
                         </div>
                         <div class="col-sm-6">
                             <div class="spacer-2em"></div>
-                            <h3>SW calculator</h3>
+                            <h3>SW Calculator</h3>
                             <div class="spacer-1em"></div>
                             <a href="./s-w-doppler-parameters-software"><img class="third-width svg-shadow" src="img/app-icon-swcalculator.svg" alt="SW Calculator app icon" /></a>
                             <div class="spacer-2em"></div>
                             <p>The app fits doppler-broadened positron-electron pair momentum distribution spectra. Software calculates the S and W integration parameters.</p>
                             <div class="spacer-2em"></div>
                             <a class="btn btn-primary btn-lg" href="./s-w-doppler-parameters-software">Learn More</a>
+                            <a class="btn btn-default btn-lg" rel="nofollow "href="https://github.com/petrstepanov/sw-calculator">View on Github</a>
                             <div class="spacer-2em"></div>
                         </div>
                     </div>
