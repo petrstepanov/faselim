@@ -40,7 +40,7 @@
                             <img src="img/petr-stepanov.jpg" alt="Petr Stepanov" class="full-width"/>
                             <div class="spacer-2em"></div>
                             <h3 class="hidden-xs hidden-sm hidden-md hidden-lg">Petr Stepanov</h3>
-                            <p>Works with Lifetime and Doppler positron spectroscopy. Software development. Rather bikes to campus on fixedgear than drives a car.</p>
+                            <p>Works with Lifetime and Doppler positron spectroscopy. Software development. Would rather ride a fixed gear bike to campus than drive a car.</p>
                             <p><small><a href="mailto:&#112;&#101;&#116;&#114;&#115;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;">&#112;&#101;&#116;&#114;&#115;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;</a></small></p>
                         </div>
                     </div>
