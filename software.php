@@ -7,16 +7,24 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1464070096534">
+        <link rel="stylesheet" href="css/selimlab.css?t=1464127170471">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
         <?php include_once("include/analyticstracking.php") ?>
         <?php require_once('include/navbar.php'); ?>
+        <div class="title-banner software font-size-controller">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1><span class="plate">Software Development at SelimLab</span><br/><small><span class="plate">At the most we do C++, Cern ROOT, Qt and Java</span></small></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container font-size-controller">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1>Software Development at SelimLab</h1>
                     <div class="spacer-2em"></div>
                     <p>As well as we develop new hardware facilities we do software too. Most of our software is open-source and released under the <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" rel="nofollow" target="_blank">General Public License</a>. Hence our products are accessible to everyone. We host apps at Github which makes it easy to collaborate, fork and access our applications. Below find our public products.</p>
                     <div class="row">

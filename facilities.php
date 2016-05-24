@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1464070096534">
+        <link rel="stylesheet" href="css/selimlab.css?t=1464127170471">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -26,16 +26,38 @@
             <div class="row">
                 <div class="col-xs-12">
                     <h3>Synthesis Facilities</h3>
-                    <ul class="spaced">
+                    <ul class="list-cards row" id="synthesis-facilities-grid" data-columns>
                         <li>
-                            Clean Room Class 100
+                            <img src="img/facilities/thumbnails/clean-room.jpg" />
+                            <div class="body">
+                                <p>Clean Room Class 100</p>
+                            </div>
                         </li>
-                        <li>State of the art automatic gas mixing panel</li>
-                        <li>Nano-synthesis unit and annealing furnaces (up to 1700 C)</li>
-                        <li>Thin and ultra-thin films spin processor</li>
-                        <li>Atomic Layer Deposition and Metal Organic Chemical Vapour Deposition Systems under construction</li>
+                        <li>
+                            <img src="img/facilities/thumbnails/gas-mixing-panel.jpg" />
+                            <div class="body">
+                                <p>State of the art automatic gas mixing panel</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/facilities/thumbnails/annealing-furnace.jpg" />
+                            <div class="body">
+                                <p>Nano-synthesis unit and annealing furnaces (up to 1700 C)</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/facilities/thumbnails/spin-processor.jpg" />
+                            <div class="body">
+                                <p>Thin and ultra-thin films spin processor</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/facilities/thumbnails/atomic-layer-deposition.jpg" />
+                            <div class="body">
+                                <p>Atomic Layer Deposition and Metal Organic Chemical Vapour Deposition Systems <span class="badge">under construction</span></p>
+                            </div>
+                        </li>
                     </ul>
-                    <div class="spacer-2em"></div>
                     <h3>Characterization Facilities</h3>
                     <p>Our laboratory is a home of a wide variety of defect characterization techniques and advanced optical spectrometers including:</p>
                     <ul class="spaced">
