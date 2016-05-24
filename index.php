@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1461361404814">
+        <link rel="stylesheet" href="css/selimlab.css?t=1464067705191">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -17,11 +17,16 @@
             <div class="container font-size-controller">
                 <div class="row">
                     <div class="col-sm-8">
-                        <h2>Accidental discovery dramatically improves electrical conductivity in perovskite SrTiO<sub>3</sub></h2>
+                        <h2>Selim recognized for involving undergraduates in basic research</h2>
+                        <div class="flex">
+                            <span class="badge">Apr 14<span class="hidden-xs hidden-sm">,</span><br class="visible-xs visible-sm"/> 2016</span>
+                            <p>Dr. Farida Selim says she has been privileged to mentor nine undergraduate students in her two years at the Bowling Green State University. Nearly all of these students have had the opportunity to present his or her work at international or regional conferences. <a href="http://www.bgsu.edu/news/2016/04/selim-recognized-for-involving-undergraduates-in-basic-research.html" rel="nofollow">read more</a></p>
+                        </div>
+                        <!-- <h2>Accidental discovery dramatically improves electrical conductivity in perovskite SrTiO<sub>3</sub></h2>
                         <div class="flex">
                             <span class="badge">Nov 14<span class="hidden-xs hidden-sm">,</span><br class="visible-xs visible-sm"/> 2013</span>
                             <p>Quite by accident, Washington State University researchers have achieved a 400-fold increase in the electrical conductivity of a crystal simply by exposing it to light. <a href="http://phys.org/news/2013-11-accidental-discovery-electrical.html" rel="nofollow">read more</a></p>
-                        </div>
+                        </div> -->
                     </div>
                     <!-- <div class="col-sm-4">
                     </div> -->
@@ -54,12 +59,12 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="spacer-1em"></div>                    
+                    <div class="spacer-1em"></div>
                     <p>The technique has been recently adopted to build a unique materials research facility at the superconducting accelerator facility at Dresden, Germany and named as GIPS (Gamma-Induced Positron Spectroscopy), <a href="http://www.hzdr.de/db/Cms?pNid=1732">ELBE – Center for High-Power Radiation Sources - Helmholtz-Zentrum Dresden-Rossendorf, HZDR</a>. The technique has extended PAS application to many new fields in materials Science.</p>
                     <p>In 2012, Selim group also developed a new optical spectrometer “x-ray induced luminescence spectroscopy” that substantially enhanced study of luminescence centers and <a href="http://scitation.aip.org/content/aip/journal/rsi/83/10/10.1063/1.4764772">scintillation properties in photonic materials</a>.</p>
                 </div>
                 <div class="col-sm-3 col-sm-offset-1 column-shift">
-                    <img src="img/farida-selim.jpg" alt="Farida Selim" class="welcome-img"/>
+                    <img src="img/farida-selim-2.jpg" alt="Farida Selim" class="welcome-img"/>
 
                     <p class="lead">Dr. Farida A. Selim</p>
                     <p class="lead sublead">Assistant Professor</p>

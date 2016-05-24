@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1461361404815">
+        <link rel="stylesheet" href="css/selimlab.css?t=1464067705191">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -34,6 +34,7 @@
                             <h3 class="hidden-xs hidden-sm hidden-md hidden-lg">Pooneh Saadatkia</h3>
                             <p>Responsible for thermoluminescence experiments. Investigates SrTiO<sub>3</sub> semiconductors.</p>
                             <p><small><a href="mailto:&#112;&#111;&#111;&#110;&#101;&#104;&#115;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;">&#112;&#111;&#111;&#110;&#101;&#104;&#115;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;</a></small></p>
+                            <p><small><a href="https://www.researchgate.net/profile/Pooneh_Saadatkia" rel="nofollow" target="_blank">ResearchGate Profile</a></small></p>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <div class="spacer-2em"></div>
@@ -42,6 +43,7 @@
                             <h3 class="hidden-xs hidden-sm hidden-md hidden-lg">Petr Stepanov</h3>
                             <p>Works with Lifetime and Doppler positron spectroscopy. Software development. Would rather ride a fixed gear bike to campus than drive a car.</p>
                             <p><small><a href="mailto:&#112;&#101;&#116;&#114;&#115;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;">&#112;&#101;&#116;&#114;&#115;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;</a></small></p>
+                            <p><small><a href="https://www.researchgate.net/profile/Petr_Stepanov2" rel="nofollow" target="_blank">ResearchGate Profile</a></small></p>
                         </div>
                     </div>
 

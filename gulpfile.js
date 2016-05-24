@@ -9,30 +9,22 @@ var gulp = require('gulp'),
     less = require('gulp-less'),
     concat = require('gulp-concat'),
     plumber = require('gulp-plumber'),
-    cachebust = require('gulp-cache-bust'),
-    replace = require('gulp-replace');
+    replace = require('gulp-replace'),
+    imageResize = require('gulp-image-resize');
 
 // Scripts Task
 
 gulp.task('scripts', function(){
-    // Copy js source files from bower packages to js/vendor/ folder
-	gulp.src(['bower_components/bootstrap/dist/js/bootstrap.js',
-			  'bower_components/jquery/dist/jquery.js',
-		  ])
-        .pipe(plumber())                    // prevents breaking and has to go first here
-        .pipe(gulp.dest('js/vendor/'));
-
-    // Concat vendor javascript and our javascript
-    gulp.src(['js/vendor/jquery.js',
-              'js/vendor/bootstrap.js',
-			  'js/main.js',
-              'js/jquery-easing-effects.js',              
+    gulp.src(['./bower_components/jquery/dist/jquery.js',
+              './bower_components/bootstrap/dist/js/bootstrap.js',
+              '.js/jquery-easing-effects.js',
+              './js/main.js'
 		  ])
         .pipe(plumber())                    // prevents breaking and has to go first here
         .pipe(concat('selimlab.js'))
-        .pipe(uglify())
+		.pipe(uglify())
         .pipe(rename({suffix: '.min'}))
-		.pipe(gulp.dest('js/'));
+		.pipe(gulp.dest('./js/'));
 });
 
 // LESS Task
@@ -44,12 +36,12 @@ gulp.task('styles', function(){
         .pipe(gulp.dest('css/'));
 });
 
-// CacheBust https://www.npmjs.com/package/gulp-cache-bust
+// Cache Task
 
 gulp.task('cache', function(){
+    var stamp = (new Date()).getTime().toString();
     gulp.src('./*.php')
-        .pipe(replace(/(\?t=(\d)*)*/g, ''))    // http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/ https://regex101.com/#javascript
-	    .pipe(cachebust({type: 'timestamp'}))
+        .pipe(replace(/(t=\d{13,})/g, 't='+stamp))    // http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/ https://regex101.com/#javascript
 	    .pipe(gulp.dest('./'));
 });
 
