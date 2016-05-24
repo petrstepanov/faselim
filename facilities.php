@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1464067705191">
+        <link rel="stylesheet" href="css/selimlab.css?t=1464070096534">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -25,12 +25,10 @@
         <div class="container font-size-controller">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="spacer-2em"></div>
                     <h3>Synthesis Facilities</h3>
-                    <ul class="list-bricks">
+                    <ul class="spaced">
                         <li>
-                            <img src="">
-                            <p>Clean Room Class 100</p>
+                            Clean Room Class 100
                         </li>
                         <li>State of the art automatic gas mixing panel</li>
                         <li>Nano-synthesis unit and annealing furnaces (up to 1700 C)</li>

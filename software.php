@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1464067705191">
+        <link rel="stylesheet" href="css/selimlab.css?t=1464070096534">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -21,7 +21,6 @@
                     <p>As well as we develop new hardware facilities we do software too. Most of our software is open-source and released under the <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License" rel="nofollow" target="_blank">General Public License</a>. Hence our products are accessible to everyone. We host apps at Github which makes it easy to collaborate, fork and access our applications. Below find our public products.</p>
                     <div class="row">
                         <div class="col-sm-6">
-                            <div class="spacer-2em"></div>
                             <h3>TLIST Processor</h3>
                             <div class="spacer-1em"></div>
                             <a href="./doppler-annihilation-radiation-software"><img class="third-width svg-shadow" src="img/app-icon-tlistprocessor.svg" alt="TLIST Processor app icon" /></a>
@@ -33,7 +32,6 @@
                             <div class="spacer-2em"></div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="spacer-2em"></div>
                             <h3>SW Calculator</h3>
                             <div class="spacer-1em"></div>
                             <a href="./s-w-doppler-parameters-software"><img class="third-width svg-shadow" src="img/app-icon-swcalculator.svg" alt="SW Calculator app icon" /></a>

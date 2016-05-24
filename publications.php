@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1464067705191">
+        <link rel="stylesheet" href="css/selimlab.css?t=1464070096534">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -18,6 +18,32 @@
                 <div class="col-xs-12">
                     <h1>Publications<br/> <small>last updated January 2016</small></h1>
                     <div class="spacer-2em"></div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <a href="#referred-articles" class="number-brick">
+                                <span class="number">58</span><span class="text">Referred Articles</span>
+                            </a>
+                            <div class="spacer-1em"></div>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#peer-review-journals" class="number-brick">
+                                <span class="number">7</span><span class="text">Peer Review Journals</span>
+                            </a>
+                            <div class="spacer-1em"></div>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#conference-publications" class="number-brick">
+                                <span class="number">8</span><span class="text">Conference Publications</span>
+                            </a>
+                            <div class="spacer-1em"></div>
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="#patents" class="number-brick">
+                                <span class="number">1</span><span class="text">Patents Awarded</span>
+                            </a>
+                            <div class="spacer-1em"></div>                              
+                        </div>
+                    </div>
                     <h3>Featured Articles</h3>
                     <ul class="spaced">
                         <li>D. Winarski, C. Persson, and <strong>F. A. Selim</strong>, Hydrogen in insulating oxide Y3Al5O12 strongly narrows the band gap, <i>Applied Physics Letters</i> <strong>105</strong>, P. 221110-1—221110-4, 2014.</li>
@@ -29,9 +55,7 @@
                         <li><strong>F. A. Selim</strong>, M. H. Weber, D. Solodovnikov, and K. G. Lynn, &ldquo;Nature of Native Defects in ZnO&rdquo;, <i>Physical Review Letters</i> <strong>99</strong>, 085502, 2007.</li>
                     </ul>
 
-                    <div class="spacer-2em"></div>
                     <h3>Books</h3>
-
                     <div class="row">
                         <div class="hidden-xs col-sm-2">
                             <img class="full-width" src="img/zinc-oxide-the-future-material-for-electronics.jpg"/>
@@ -43,8 +67,7 @@
                         </div>
                     </div>
 
-                    <div class="spacer-2em"></div>
-                    <h3>Referred Articles</h3>
+                    <h3 id="referred-articles">Referred Articles</h3>
                     <ol class="spaced inverted-list">
                         <li>R. Haakenaasen, A.W. Hunt, J.A. Golovchenko, R. Howell, <strong>F.A. Selim</strong>, K. G. Lynn, T. Cowan, L.V. Hau, &ldquo;Single quantum and two quantum annihilation in flight measurements of electron distributions using channeled positrons&rdquo;, <i>Mat. Sci. Forum</i> <strong>255</strong>, p. 257, 1998.</li>
                         <li><strong>F.A. Selim</strong>, J.A. Golovchenko, M. Mandour, R. Howell and M.S. Abouel-Wafa, &ldquo;Calculations of Multiple Scattering of Fast Positrons and Electrons, <i>Mat. Sc. Forum</i> <strong>255-257</strong>, p. 266, 1998.</li>
@@ -105,8 +128,8 @@
                         <li>M.S. Holston, I.P. Ferguson, N.C. Giles, J.W. McClory, D.J. Winarski, Jianfeng Ji, <strong>F. A. Selim</strong>, L.E. Halliburton,  Green luminescence from Cu-diffused LiGaO2 crystals, <i>Journal of Luminescence</i> <strong>170</strong>, 17–23, 2016.</li>
                         <li>M. Colosimo, Jianfeng Ji, P. S. Stepanov, L. A. Boatner and <strong>F. A. Selim</strong>, Scintillation of Un-doped ZnO Single Crystals. <i>MRS Advances</i>, doi:10.1557/adv.2015.60, 2016.</li>
                     </ol>
-                    <div class="spacer-2em"></div>
-                    <h3>Peer Review Journals</h3>
+
+                    <h3 id="peer-review-journals">Peer Review Journals</h3>
                     <ul class="spaced">
                         <li><strong>F. A. Selim</strong>, D.P. Wells, J. Harmon and J. Williams, &ldquo;A Novel Application of Pulsed X-ray in Laser Matter Interaction&rdquo;, Proc. of Denver X-ray Conference, Powder diffraction 19, 203, 2004.</li>
                         <li>D. P. Wells, <strong>F. A. Selim</strong>, J. F. Harmon, G. Erickson, J. Jones, T. White and T. Roney &ldquo;Applications and technological spin-offs of electron Linacs to Environmental sciences&rdquo;. Proc. of Subsurface Science Symposium , Salt Lake, Oct, 2003.</li>
@@ -116,8 +139,8 @@
                         <li>Kwofie, J., D.P. Wells, <strong>F. A. Selim</strong>, F. J. Harmon, W. Scates, R. Spaulding, G.Erickson, S.A. Parke, S.P. Duttagupta, J.L. Jones, T. White and T. Roney, Accelerator-Based XRF for Subsurface Science, 1st Inland Northwest Research Alliance Conference on Sub-surface Science, Aug. 2001.</li>
                         <li>D. P. Wells, W .W. Scates, J. F. Harmon, R. Spaulding, <strong>F. A. Selim</strong>, A Test of the Exponential Decay Law by Photo-Production of Nuclear Isomers, Proceedings of Special meeting of the American Physical Society, 2001.</li>
                     </ul>
-                    <div class="spacer-2em"></div>
-                    <h3>Conference Publications</h3>
+
+                    <h3 id="conference-publications">Conference Publications</h3>
                     <ol class="spaced inverted-list">
                         <li>M. A. Okuniewski, C. S. Deo, M. H. Weber, <strong>F. A. Selim</strong>, K.  G. Lynn et al., &ldquo;Particle Beam-Induced Radiation Effects in Materials&rdquo;, Proceedings of the TMS 2008 Annual Meeting 2008.</li>
                         <li>M. A. Okuniewski, M. H. Weber, <strong>F. A. Selim</strong>, K. G. Lynn, C. S. Deo, S. G. Srivilliputhur, M. R. James, S. A. Maloy, M. I. Baskes, and J. F. Stubbins, &ldquo;Helium and hydrogen effects in irradiated single crystal body-center cubic Iron&rdquo;, ICPA-14, 2006.</li>
@@ -129,8 +152,8 @@
                         <li>Kwofie, J., D.P. Wells, <strong>F. A. Selim</strong>, F. J. Harmon, W. Scates, R. Spaulding, G.Erickson, S.A. Parke, S.P. Duttagupta, J.L. Jones, T. White and T. Roney, Accelerator-Based XRF for Subsurface Science, 1st Inland Northwest Research Alliance Conference on Sub-surface Science, Aug. 2001.</li>
                         <li>D. P. Wells, W .W. Scates, J. F. Harmon, R. Spaulding, <strong>F. A. Selim</strong>, A Test of the  Exponential Decay Law by Photo-Production of Nuclear Isomers, Proceedings of Special meeting of the American Physical Society, 2001.</li>
                     </ol>
-                    <div class="spacer-2em"></div>
-                    <h3>Patents Awarded</h3>
+
+                    <h3 id="patents">Patents Awarded</h3>
                     <div class="row">
                         <div class="col-sm-6 col-md-5 col-lg-4">
                             <img class="full-width" src="img/patent-luminescence-based-spectrometers.jpg">
