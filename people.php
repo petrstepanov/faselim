@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1464230738922">
+        <link rel="stylesheet" href="css/selimlab.css?t=1464232188312">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -46,7 +46,7 @@
                             <p>Hall effect and x-ray diffraction guy. Makes and studies ZnO thin films. Big on hockey. </p>
                             <div class="person-details">
                                 <a class="email" href="mailto:&#100;&#106;&#119;&#105;&#110;&#097;&#114;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;">&#100;&#106;&#119;&#105;&#110;&#097;&#114;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;</a>
-                            </div>                            
+                            </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <div class="spacer-2em visible-xs"></div>
@@ -71,6 +71,9 @@
                                 <a href="https://www.researchgate.net/profile/Petr_Stepanov2" target="_blank" rel="nofollow" title="Petr Stepanov on ResearchGate">
                                     <img class="icon height" src="img/researchgate-icon.svg" />
                                 </a>
+                                <a href="https://www.linkedin.com/in/petrstepanov/en" target="_blank" rel="nofollow" title="Petr Stepanov on LinkedIn">
+                                    <img class="icon height" src="img/linkedin-icon.svg" />
+                                </a>
                                 <a href="https://petrstepanov.wordpress.com/" target="_blank" rel="nofollow" title="Petr Stepanov wordpress blog">
                                     <img class="icon height" src="img/wordpress-icon.svg" />
                                 </a>
@@ -83,12 +86,12 @@
                     <h3>Triple Birthday Celebration<br /><small>at Maumee Bay Brewing Co.</small></h3>
                     <img src="img/selim-group.jpg" alt="SelimLab group 2015 at Maumee Bay Brewing Co." class="full-width"/>
                     <div class="spacer-2em"></div>
-                    <p><strong>From left to right</strong>: Farida Selim, Sunil Thapa, Anthony Colosimo, Pooneh Saadatkia, George Hargenrader, Tara Gray, Petr Stepanov, Ben Hardy, Micah Haseman, David Winarski</p>
+                    <p><strong>Left to right</strong>: Farida Selim, Sunil Thapa, Anthony Colosimo, Pooneh Saadatkia, George Hargenrader, Tara Gray, Petr Stepanov, Ben Hardy, Micah Haseman, David Winarski</p>
 
                     <h3>Celebrating Jianfeng Ji doctorate degree<br /><small>The Toledo Museum of Art, Spring 2015.</small></h3>
                     <img src="img/selim-lab-our-group-2015.jpg" alt="SelimLab group 2015 at Toledo Art Museum" class="full-width"/>
                     <div class="spacer-2em"></div>
-                    <p><strong>From left to right</strong>: Petr Stepanov, Pooneh Saadatkia, Anthony Colosimo, Sunil Thapa, David Winarski, Ben Hardy, Jianfeng Ji, Farida Selim</p>
+                    <p><strong>Left to right</strong>: Petr Stepanov, Pooneh Saadatkia, Anthony Colosimo, Sunil Thapa, David Winarski, Ben Hardy, Jianfeng Ji, Farida Selim</p>
 
                     <h3>Designing the lab logo and making wall label<br /><small>by Petr Stepanov</small></h3>
                     <img src="img/selimlab-branding.jpg" alt="Petr making" class="full-width"/>
@@ -98,38 +101,40 @@
                         <div class="col-sm-6 col-md-4">
                             <img src="img/high-five.jpg" class="full-width"/>
                             <div class="spacer-1em"></div>
-                            <p><small><strong>Left to Right</strong>: Amin Kham, Jianfeng Ji, Chris Varney</small></p>
+                            <p class="min-height-4em"><small><strong>Left to Right</strong>: Amin Kham, Jianfeng Ji, Chris Varney</small></p>
                             <div class="spacer-1em"></div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <img src="img/washington-state-university-lab.jpg" alt="Lab at Washington State" class="full-width"/>
                             <div class="spacer-1em"></div>
-                            <p><small><strong>Left to Right</strong>: Kim Heiner, Farida Selim, Autumn Pratt</small></p>
+                            <p class="min-height-4em"><small><strong>Left to Right</strong>: Kim Heiner, Farida Selim, Autumn Pratt</small></p>
                             <div class="spacer-1em"></div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <img src="img/jianfeng-ji-teaching.jpg" class="full-width"/>
                             <div class="spacer-1em"></div>
-                            <p><small><strong>Left to Right</strong>: Autumn Pratt, Kim Heiner, Jianfeng Ji</small></p>
+                            <p class="min-height-4em"><small><strong>Left to Right</strong>: Autumn Pratt, Kim Heiner, Jianfeng Ji</small></p>
                             <div class="spacer-1em"></div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <img src="img/frederick-chen-poster.jpg" alt="Frederick Chen poster at SURCA" class="full-width"/>
                             <div class="spacer-1em"></div>
-                            <p><small>Frederick Chen presents his poster at SURCA 2012</small></p>
+                            <p class="min-height-4em"><small>Frederick Chen presents his poster at SURCA 2012</small></p>
                             <div class="spacer-1em"></div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <img src="img/washington-state-group.jpg" alt="Washington State Group" class="full-width"/>
                             <div class="spacer-1em"></div>
-                            <p><small><strong>Left to Right</strong>: Jianfeng Ji, Frederick Chen, Chris Varney, John Buscher</small></p>
+                            <p class="min-height-4em"><small><strong>Left to Right</strong>: Jianfeng Ji, Frederick Chen, Chris Varney, John Buscher</small></p>
                             <div class="spacer-1em"></div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <img src="img/washington-state-group-alumni.jpg" alt="Washington State Group Alumni" class="full-width"/>
                             <div class="spacer-1em"></div>
-                            <p><small><strong>Front</strong>: David Mackay, Farida Selim, Jianfeng Ji</small></p>
-                            <p><small><strong>Back</strong>: Chris Varney, Autumn Pratt, John Buscher, Frederick Chen</small></p>
+                            <div class="min-height-4em">
+                                <p><small><strong>Front</strong>: David Mackay, Farida Selim, Jianfeng Ji</small></p>
+                                <p><small><strong>Back</strong>: Chris Varney, Autumn Pratt, John Buscher, Frederick Chen</small></p>
+                            </div>
                             <div class="spacer-1em"></div>
                         </div>
                     </div>

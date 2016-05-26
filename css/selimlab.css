@@ -6298,6 +6298,9 @@ html {
 .icon.width {
   height: auto;
 }
+.min-height-4em {
+  min-height: 4em;
+}
 .person-details {
   font-size: 2.3125em;
 }
