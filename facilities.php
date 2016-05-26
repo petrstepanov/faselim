@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>SelimLab - Research Facilities</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1464211791802">
+        <link rel="stylesheet" href="css/selimlab.css?t=1464230738922">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -72,51 +72,67 @@
                     <h3 id="characterization-facilities">Characterization Facilities</h3>
                     <p>Our laboratory is a home of a wide variety of defect characterization techniques and advanced optical spectrometers including:</p>
                     <div class="spacer-2em"></div>
-                    <ul class="list-cards row" id="characterization-facilities-grid" data-columns>
+                    <ul class="list-cards row chocolat-parent" data-chocolat-title="Characterization Facilities" id="characterization-facilities-grid" data-columns>
                         <li>
-                            <img src="img/facilities/thumbnails/positron-lifetime-spectrometer.jpg" />
+                            <a class="chocolat-image" href="img/facilities/positron-lifetime-spectrometer.jpg" title="Positron lifetime spectrometer">
+                                <img src="img/facilities/thumbnails/positron-lifetime-spectrometer.jpg" />
+                            </a>
                             <div class="body">
                                 <p>Positron lifetime spectrometer</p>
                             </div>
                         </li>
                         <li>
-                            <img src="img/facilities/thumbnails/positron-doppler-spectrometer.jpg" />
+                            <a class="chocolat-image" href="img/facilities/positron-doppler-spectrometer.jpg" title="Digital Coincidence Doppler Broadening Positron Annihilation Spectrometer. First digital system in United States.">
+                                <img src="img/facilities/thumbnails/positron-doppler-spectrometer.jpg" />
+                            </a>
                             <div class="body">
                                 <p>Digital Coincidence Doppler Broadening Positron Annihilation Spectrometer. First digital system in United States.</p>
                             </div>
                         </li>
                         <li>
-                            <img src="img/facilities/thumbnails/hall-effect-system.jpg" />
+                            <a class="chocolat-image" href="img/facilities/hall-effect-system.jpg" title="Temperature-dependent Photo-Hall Effect System and Magnetoresistance effect set up.">
+                                <img src="img/facilities/thumbnails/hall-effect-system.jpg" />
+                            </a>
                             <div class="body">
                                 <p>Temperature-dependent Photo-Hall Effect System and Magnetoresistance effect set up</p>
                             </div>
                         </li>
                         <li>
-                            <img src="img/facilities/thumbnails/thermo-luminescence-spectrometer.jpg" />
+                            <a class="chocolat-image" href="img/facilities/thermo-luminescence-spectrometer.jpg" title="Thermo-luminescence spectrometer">
+                                <img src="img/facilities/thumbnails/thermo-luminescence-spectrometer.jpg" />
+                            </a>
                             <div class="body">
                                 <p>Thermo-luminescence spectrometer</p>
                             </div>
                         </li>
                         <li>
-                            <img src="img/facilities/thumbnails/x-ray-luminescence-spectrometer.jpg" />
+                            <a class="chocolat-image" href="img/facilities/x-ray-luminescence-spectrometer.jpg" title="X-ray luminescence based spectrometer for luminescence and scintillation measurements">
+                                <img src="img/facilities/thumbnails/x-ray-luminescence-spectrometer.jpg" />
+                            </a>
                             <div class="body">
                                 <p>X-ray luminescence based spectrometer for luminescence and scintillation measurements.</p><p><a href="http://scitation.aip.org/content/aip/journal/rsi/83/10/10.1063/1.4764772">We developed this novel spectrometer</a>.</p>
                             </div>
                         </li>
                         <li>
-                            <img src="img/facilities/thumbnails/heating-cooling-sample-stage.jpg" />
+                            <a class="chocolat-image" href="img/facilities/heating-cooling-sample-stage.jpg" title="Heating cooling sample stage (77k-700k) with optical measurements capabilities">
+                                <img src="img/facilities/thumbnails/heating-cooling-sample-stage.jpg" />
+                            </a>
                             <div class="body">
                                 <p>Heating cooling sample stage (77k-700k) with optical measurements capabilities</p>
                             </div>
                         </li>
                         <li>
-                            <img src="img/facilities/thumbnails/uv-vis-spectrometer.jpg" />
+                            <a class="chocolat-image" href="img/facilities/uv-vis-spectrometer.jpg" title="UV-VIS-NIR spectrophotometer for optical absorption measurements">
+                                <img src="img/facilities/thumbnails/uv-vis-spectrometer.jpg" />
+                            </a>
                             <div class="body">
                                 <p>UV-VIS-NIR spectrophotometer for optical absorption measurements</p>
                             </div>
                         </li>
                         <li>
-                            <img src="img/facilities/thumbnails/photoluminescence-spectrometers.jpg" />
+                            <a class="chocolat-image" href="img/facilities/photoluminescence-spectrometers.jpg" title="Photoluminescence spectrometers">
+                                <img src="img/facilities/thumbnails/photoluminescence-spectrometers.jpg" />
+                            </a>
                             <div class="body">
                                 <p>Photoluminescence spectrometers</p>
                             </div>
@@ -133,9 +149,12 @@
         ?>
         <script>
             $('.nav #facilities, #facilities a').addClass('active');
-            $('.chocolat-parent').Chocolat({
-                // fullScreen: true
-            });
+            var isTouchDevice = 'ontouchstart' in document.documentElement;
+            if (!isTouchDevice){
+                $('.chocolat-parent').Chocolat({
+                    loop: true
+                });                
+            }
         </script>
     </body>
 </html>

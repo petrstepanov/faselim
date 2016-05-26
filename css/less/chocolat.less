@@ -13,7 +13,7 @@
     z-index:10;
     background-color:#fff;
     display:none;
-    opacity: 1; // Petr Stepanov
+    opacity: 1 !important; // Petr Stepanov
 }
 .chocolat-wrapper{
     height:100%;
@@ -189,3 +189,17 @@ body.chocolat-open>.chocolat-content{
     opacity: 0;
 }
 */
+
+
+.chocolat-image {
+    overflow: hidden;
+    display: block;
+
+    img {
+        .transition(all @slow ease-in-out);
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

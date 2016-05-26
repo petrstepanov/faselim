@@ -5,10 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>swcalculator - calculate s and w parameters of annihilation radiation</title>
         <meta name="description" content="The software might be quite useful for solid-state physicists who do materials characterization and work with positron spectroscopy">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1464211791802">
-        <link rel="shortcut icon" href="favicon.ico">        
+        <link rel="stylesheet" href="css/selimlab.css?t=1464230738922">
+        <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
         <?php include_once("include/analyticstracking.php") ?>

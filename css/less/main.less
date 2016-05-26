@@ -6,6 +6,28 @@ html {
     height: 1em;
     width: 1em;
     display: inline-block;
+
+	&.height {
+		width: auto;
+	}
+
+	&.width {
+		height: auto;
+	}
+}
+
+.person-details {
+	font-size: @font-size-37;
+
+	.email {
+		font-size: 0.5em;
+	    vertical-align: middle;
+	    margin-left: 1em;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
 }
 
 h3 {
@@ -501,6 +523,14 @@ ul.spaced {
 	}
 	&.software {
 		background-image: url(../img/software-development.jpg);
+	}
+	&.selim {
+		@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+			background-image: url(../img/farida-selim-3-small.jpg);
+		}
+		@media (min-width: @screen-md-min){
+			background-image: url(../img/farida-selim-3.jpg);
+		}
 	}
 }
 
