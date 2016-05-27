@@ -65,6 +65,7 @@
                             <div class="spacer-2em"></div>
                             <img src="img/anthony-colosimo.jpg" alt="Anthony Colosimo" class="full-width"/>
                             <div class="spacer-2em"></div>
+                            <p><strong>Anthony Colosimo</p></strong>
                             <p class="hidden-xs hidden-sm hidden-md hidden-lg"><strong>Anthony Colosimo</strong></p>
                             <div class="person-details">
                                 <a class="email" href="mailto:&#097;&#110;&#116;&#104;&#111;&#110;&#099;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;">&#097;&#110;&#116;&#104;&#111;&#110;&#099;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;</a>
@@ -78,7 +79,7 @@
                             <div class="person-details">
                                 <a class="email" href="mailto:&#097;&#115;&#097;&#104;&#105;&#108;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;">&#097;&#115;&#097;&#104;&#105;&#108;&#064;&#098;&#103;&#115;&#117;&#046;&#101;&#100;&#117;</a>
                             </div>
-                        </div>                        
+                        </div>
                         <div class="col-sm-6 col-md-4">
                             <div class="spacer-2em"></div>
                             <img src="img/petr-stepanov.jpg" alt="Petr Stepanov" class="full-width"/>
