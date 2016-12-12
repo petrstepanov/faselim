@@ -6361,26 +6361,26 @@ h3 {
   .selim-navbar-container .selim-navbar .logo {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    width: 6em;
+    width: 5em;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .selim-navbar-container .selim-navbar .logo {
     margin-top: 1.8em;
     margin-bottom: 0.5em;
-    width: 4em;
+    width: 3em;
   }
 }
 @media (min-width: 992px) and (max-width: 1280px) {
   .selim-navbar-container .selim-navbar .logo {
     margin: 2em 3em 2em 0;
-    width: 5em;
+    width: 8em;
   }
 }
 @media (min-width: 1281px) {
   .selim-navbar-container .selim-navbar .logo {
-    width: 6em;
-    margin: 3em 4em 3em 0;
+    width: 10em;
+    margin: 2.5em 4em 2.5em 0;
   }
 }
 .selim-navbar-container .selim-navbar .navigation {
@@ -6478,9 +6478,12 @@ hr {
 .news-container {
   background-color: #65a9d2;
   color: white;
-  padding-bottom: 2.4em;
+  padding-bottom: 1.5em;
 }
 .news-container .badge {
+  text-align: center;
+  line-height: 1.5;
+  min-width: 5.33333333em;
   background-color: white;
   color: #65a9d2;
   margin-right: 2.66666667em;
@@ -6488,15 +6491,7 @@ hr {
   border-radius: 0.25em;
   font-style: italic;
   white-space: nowrap;
-  min-width: 8em;
   padding: 0.53333333em 0.66666667em;
-}
-@media (max-width: 991px) {
-  .news-container .badge {
-    text-align: center;
-    line-height: 1.5;
-    min-width: 5.33333333em;
-  }
 }
 .news-container a {
   color: #2f77a2;
@@ -6520,17 +6515,17 @@ h6 {
   font-family: "bitterbold", Georgia, "Times New Roman", serif;
 }
 h1 {
-  font-size: 2.3125em;
-  margin-top: 1.72972973em;
-  margin-bottom: 0.86486486em;
+  font-size: 1.75em;
+  margin-top: 1.71428571em;
+  margin-bottom: 0.85714286em;
 }
 h1 small {
   color: #999;
 }
 h2 {
   font-size: 1.75em;
-  margin-top: 2.28571429em;
-  margin-bottom: 1.14285714em;
+  margin-top: 1.71428571em;
+  margin-bottom: 0.85714286em;
 }
 h3 {
   font-size: 1.3125em;
@@ -6541,8 +6536,8 @@ h4 {
 @media (min-width: 768px) {
   .column-shift {
     position: relative;
-    top: -15em;
-    margin-bottom: -15em;
+    top: -12em;
+    margin-bottom: -12em;
   }
 }
 .column-shift .icon {
@@ -6679,7 +6674,7 @@ ul.spaced:before {
 }
 .footer-container .left-column,
 .footer-container .right-column {
-  padding: 4em 0;
+  padding: 3em 0 2em 0;
 }
 @media (max-width: 991px) {
   .footer-container .left-column,

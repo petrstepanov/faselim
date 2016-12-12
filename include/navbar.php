@@ -4,9 +4,9 @@
             <div class="col-xs-12">
                 <div class="selim-navbar">
                     <a href="./" title="Go Home">
-                        <img class="visible-xs logo" src="img/logo-horizontal-smaller.png" alt="SelimLab Logo Horizontal"/>
+                        <img class="visible-xs visible-md visible-lg logo" src="img/logo-horizontal-smaller.png" alt="SelimLab Logo Horizontal"/>
                         <img class="visible-sm logo" src="img/logo-vertical-smaller.png" alt="SelimLab Logo Vertical"/>
-                        <img class="visible-md visible-lg logo" src="img/logo-vertical.png" alt="SelimLab Logo Vertical Smaller"/>
+<!--                        <img class="visible-md logo" src="img/logo-vertical.png" alt="SelimLab Logo Vertical Smaller"/> -->
                     </a>
                     <a class="toggle-menu js-toggle-menu" href="#">
                         <svg class="icon"><use xlink:href="img/icons.svg#icon-menu"></use></svg>

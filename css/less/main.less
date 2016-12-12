@@ -80,20 +80,20 @@ h3 {
             @media (max-width: @screen-xs-max){
                 margin-top: 0.5em;
                 margin-bottom: 0.5em;
-                width: 6em;
+                width: 5em;
             }
             @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
                 margin-top: 1.8em;
                 margin-bottom: 0.5em;
-                width: 4em;
+                width: 3em;
             }
             @media (min-width: @screen-md-min) and (max-width: @screen-md-max){
                 margin: 2em 3em 2em 0;
-                width: 5em;
+                width: 8em;
             }
             @media (min-width: @screen-lg-min){
-                width: 6em;
-                margin: 3em 4em 3em 0;
+                width: 10em;
+                margin: 2.5em 4em 2.5em 0;
             }
         }
 
@@ -190,15 +190,13 @@ hr {
 .news-container {
 	background-color: @blue;
 	color: white;
-	padding-bottom: 2.4em;
+	padding-bottom: 1.5em;
 	// padding-top: 1em;
 
 	.badge {
-		@media (max-width: @screen-sm-max){
-			text-align: center;
-			line-height: 1.5;
-			min-width: 4em/@font-size-12;
-		}
+		text-align: center;
+		line-height: 1.5;
+		min-width: 4em/@font-size-12;
 		background-color: white;
 		color: @blue;
 		margin-right: 2em/@font-size-12;
@@ -206,7 +204,7 @@ hr {
 		border-radius: 0.1875em/@font-size-12;
 		font-style: italic;
 		white-space: nowrap;
-		min-width: 6em/@font-size-12;
+// 		min-width: 6em/@font-size-12;
 		padding: 0.4em/@font-size-12 0.5em/@font-size-12;
 	}
 
@@ -233,9 +231,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: @font-size-37;
-	margin-top: 4em/@font-size-37;
-	margin-bottom: 2em/@font-size-37;
+    font-size: @font-size-28;
+	margin-top: 3em/@font-size-28;
+	margin-bottom: 1.5em/@font-size-28;
 
 	small {
 		color: #999;
@@ -244,8 +242,8 @@ h1 {
 
 h2 {
 	font-size: @font-size-28;
-	margin-top: 4em/@font-size-28;
-	margin-bottom: 2em/@font-size-28;
+	margin-top: 3em/@font-size-28;
+	margin-bottom: 1.5em/@font-size-28;
 }
 
 h3 {
@@ -259,8 +257,8 @@ h4 {
 .column-shift {
 	@media (min-width: @screen-sm-min){
 		position: relative;
-		top: -15em;
-		margin-bottom: -15em;
+		top: -12em;
+		margin-bottom: -12em;
 	}
 
 	.icon {
@@ -407,7 +405,7 @@ ul.spaced {
 	}
 
 	.left-column, .right-column {
-		padding: 4em 0;
+		padding: 3em 0 2em 0;
 		@media (max-width: @screen-sm-max){
 			padding: 2em 0;
 			text-align: center;

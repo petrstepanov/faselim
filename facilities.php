@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1464384886921">
+        <link rel="stylesheet" href="css/selimlab.css?t=1481398628077">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -113,14 +113,14 @@
                                 <p>X-ray luminescence based spectrometer for luminescence and scintillation measurements.</p><p><a href="http://scitation.aip.org/content/aip/journal/rsi/83/10/10.1063/1.4764772">We developed this novel spectrometer</a>.</p>
                             </div>
                         </li>
-                        <li>
+<!--                        <li>
                             <a class="chocolat-image" href="img/facilities/heating-cooling-sample-stage.jpg" title="Heating cooling sample stage (77k-700k) with optical measurements capabilities">
                                 <img src="img/facilities/thumbnails/heating-cooling-sample-stage.jpg" />
                             </a>
                             <div class="body">
                                 <p>Heating cooling sample stage (77k-700k) with optical measurements capabilities</p>
                             </div>
-                        </li>
+                        </li> -->
                         <li>
                             <a class="chocolat-image" href="img/facilities/uv-vis-spectrometer.jpg" title="UV-VIS-NIR spectrophotometer for optical absorption measurements">
                                 <img src="img/facilities/thumbnails/uv-vis-spectrometer.jpg" />

@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="stylesheet" href="css/selimlab.css?t=1464384886921">
+        <link rel="stylesheet" href="css/selimlab.css?t=1481398628077">
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
@@ -16,7 +16,7 @@
         <div class="container font-size-controller">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1>Research Experience</h1>
+                    <h1>Current Research Projects</h1>
                     <h3>Photo-chemical synthesis of nanomaterials</h3>
                     <div class="row">
                         <div class="col-md-5">
